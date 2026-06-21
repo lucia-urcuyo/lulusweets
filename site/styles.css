@@ -1,17 +1,17 @@
 :root {
   color-scheme: light;
-  --ink: #2d2524;
-  --muted: #746967;
-  --subtle: #9a8f8c;
-  --paper: #fffdf9;
-  --canvas: #f8f3ec;
-  --canvas-deep: #efe6da;
-  --line: #e8ddd2;
-  --wine: #7f3d4b;
-  --wine-deep: #66303c;
-  --gold: #bf8c43;
-  --shadow: 0 22px 60px rgba(73, 48, 43, 0.1);
-  --soft-shadow: 0 12px 30px rgba(73, 48, 43, 0.07);
+  --ink: #2d2d2d;
+  --muted: #637085;
+  --subtle: #94a0b0;
+  --paper: #ffffff;
+  --canvas: #f3f7fb;
+  --canvas-deep: #e4ecf3;
+  --line: #d4dee8;
+  --wine: #4a7c96;
+  --wine-deep: #3a6478;
+  --gold: #d4915c;
+  --shadow: 0 22px 60px rgba(55, 85, 115, 0.08);
+  --soft-shadow: 0 12px 30px rgba(55, 85, 115, 0.05);
   --radius-sm: 12px;
   --radius-md: 20px;
   --radius-lg: 30px;
@@ -38,7 +38,7 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    radial-gradient(circle at 8% 5%, rgba(211, 171, 132, 0.12), transparent 27rem),
+    radial-gradient(circle at 8% 5%, rgba(120, 170, 210, 0.07), transparent 27rem),
     var(--canvas);
   font-family: var(--sans);
   line-height: 1.55;
@@ -101,8 +101,8 @@ svg {
     max(0.8rem, env(safe-area-inset-top))
     max(1.25rem, calc((100vw - var(--content)) / 2))
     0.8rem;
-  border-bottom: 1px solid rgba(127, 61, 75, 0.08);
-  background: rgba(248, 243, 236, 0.88);
+  border-bottom: 1px solid rgba(74, 124, 150, 0.08);
+  background: rgba(243, 247, 251, 0.88);
   backdrop-filter: blur(18px);
 }
 
@@ -114,19 +114,26 @@ svg {
   text-decoration: none;
 }
 
-.brand-mark,
+.brand-mark {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(55, 85, 115, 0.15);
+}
+
 .loading-mark {
   display: grid;
   width: 43px;
   height: 43px;
   place-items: center;
   border-radius: 50%;
-  color: #fffaf5;
+  color: #ffffff;
   background: var(--wine);
   font-family: var(--display);
   font-size: 1.45rem;
   font-weight: 700;
-  box-shadow: 0 7px 18px rgba(127, 61, 75, 0.22);
+  box-shadow: 0 7px 18px rgba(74, 124, 150, 0.22);
 }
 
 .brand strong,
@@ -246,9 +253,9 @@ main {
 .search-panel {
   align-self: center;
   padding: clamp(1.35rem, 3vw, 2.1rem);
-  border: 1px solid rgba(127, 61, 75, 0.1);
+  border: 1px solid rgba(74, 124, 150, 0.1);
   border-radius: var(--radius-lg);
-  background: rgba(255, 253, 249, 0.82);
+  background: rgba(255, 255, 255, 0.85);
   box-shadow: var(--shadow);
 }
 
@@ -267,8 +274,8 @@ main {
 }
 
 .search-field:focus-within {
-  border-color: rgba(127, 61, 75, 0.55);
-  box-shadow: 0 0 0 4px rgba(127, 61, 75, 0.08);
+  border-color: rgba(74, 124, 150, 0.55);
+  box-shadow: 0 0 0 4px rgba(74, 124, 150, 0.08);
 }
 
 .search-icon {
@@ -351,7 +358,7 @@ main {
   min-height: 116px;
   padding: 1rem;
   overflow: hidden;
-  border: 1px solid rgba(75, 55, 50, 0.08);
+  border: 1px solid rgba(55, 85, 115, 0.08);
   border-radius: var(--radius-md);
   text-align: left;
   background: var(--paper);
@@ -443,7 +450,7 @@ main {
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--muted);
-  background: rgba(255, 253, 249, 0.72);
+  background: rgba(255, 255, 255, 0.75);
   font-size: 0.78rem;
   cursor: pointer;
 }
@@ -466,7 +473,7 @@ main {
   min-height: 190px;
   padding: 1.45rem;
   overflow: hidden;
-  border: 1px solid rgba(75, 55, 50, 0.08);
+  border: 1px solid rgba(55, 85, 115, 0.08);
   border-radius: var(--radius-md);
   color: inherit;
   background: var(--paper);
@@ -479,7 +486,7 @@ main {
 }
 
 .recipe-card:hover {
-  border-color: rgba(127, 61, 75, 0.2);
+  border-color: rgba(74, 124, 150, 0.2);
   transform: translateY(-3px);
   box-shadow: var(--shadow);
 }
@@ -546,7 +553,7 @@ main {
 .empty-state {
   min-height: 360px;
   padding: 3rem;
-  border: 1px dashed #dacbc0;
+  border: 1px dashed #c0d2e0;
   border-radius: var(--radius-lg);
 }
 
@@ -557,7 +564,7 @@ main {
   place-items: center;
   border-radius: 50%;
   color: var(--wine);
-  background: #f2e6df;
+  background: #ddeaf4;
 }
 
 .empty-state h3 {
@@ -652,7 +659,7 @@ main {
   height: clamp(92px, 13vw, 138px);
   border-radius: 30%;
   font-size: clamp(2rem, 5vw, 3.2rem);
-  box-shadow: inset 0 0 0 1px rgba(70, 45, 40, 0.06);
+  box-shadow: inset 0 0 0 1px rgba(55, 85, 115, 0.06);
 }
 
 .recipe-hero h1 {
@@ -689,7 +696,7 @@ main {
 .recipe-content {
   min-width: 0;
   padding: clamp(1.5rem, 4vw, 3.25rem);
-  border: 1px solid rgba(75, 55, 50, 0.08);
+  border: 1px solid rgba(55, 85, 115, 0.08);
   border-radius: var(--radius-lg);
   background: var(--paper);
   box-shadow: var(--soft-shadow);
@@ -718,7 +725,7 @@ main {
 }
 
 .recipe-content p {
-  color: #554c49;
+  color: #4a5568;
 }
 
 .recipe-content ol,
@@ -734,7 +741,7 @@ main {
   min-height: 42px;
   margin-bottom: 1.05rem;
   padding-left: 3.1rem;
-  color: #4f4744;
+  color: #4a5568;
   counter-increment: recipe-step;
 }
 
@@ -748,7 +755,7 @@ main {
   place-items: center;
   border-radius: 50%;
   color: var(--wine);
-  background: #f2e6df;
+  background: #ddeaf4;
   font-size: 0.75rem;
   font-weight: 800;
   content: counter(recipe-step);
@@ -795,7 +802,7 @@ main {
 
 .recipe-content th {
   color: var(--wine);
-  background: #faf5ef;
+  background: #eaf1f7;
   font-size: 0.7rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -813,12 +820,12 @@ main {
 .recipe-link {
   color: var(--wine);
   font-weight: 700;
-  text-decoration-color: rgba(127, 61, 75, 0.35);
+  text-decoration-color: rgba(74, 124, 150, 0.35);
   text-underline-offset: 0.18em;
 }
 
 .missing-link {
-  color: #956d3f;
+  color: #946b2d;
   border-bottom: 1px dashed currentColor;
 }
 
@@ -831,9 +838,9 @@ main {
 
 .related-panel {
   padding: 1.3rem;
-  border: 1px solid rgba(75, 55, 50, 0.08);
+  border: 1px solid rgba(55, 85, 115, 0.08);
   border-radius: var(--radius-md);
-  background: rgba(255, 253, 249, 0.78);
+  background: rgba(255, 255, 255, 0.80);
 }
 
 .related-panel h2 {
@@ -860,7 +867,7 @@ main {
 }
 
 .mini-recipe-card:hover {
-  border-color: rgba(127, 61, 75, 0.35);
+  border-color: rgba(74, 124, 150, 0.35);
 }
 
 .mini-mark {
@@ -952,7 +959,7 @@ main {
   padding: 0.8rem 1rem;
   border-radius: 12px;
   color: white;
-  background: #332b2a;
+  background: #2d3748;
   box-shadow: var(--shadow);
   font-size: 0.8rem;
   opacity: 0;
@@ -969,73 +976,73 @@ main {
 }
 
 .tone-rose {
-  --tone-bg: #f3dfe1;
-  --tone-ink: #87404c;
+  --tone-bg: #f5e0e4;
+  --tone-ink: #9e4a5a;
 }
 
 .tone-peach {
-  --tone-bg: #f8e1d1;
-  --tone-ink: #9a563e;
+  --tone-bg: #fae5d5;
+  --tone-ink: #b06040;
 }
 
 .tone-plum {
-  --tone-bg: #eadde6;
-  --tone-ink: #75465f;
+  --tone-bg: #ece0ea;
+  --tone-ink: #7d4e6a;
 }
 
 .tone-amber {
-  --tone-bg: #f6e4c6;
-  --tone-ink: #956222;
+  --tone-bg: #f8e8cf;
+  --tone-ink: #a06a28;
 }
 
 .tone-wheat {
-  --tone-bg: #eee2c9;
-  --tone-ink: #79603a;
+  --tone-bg: #f0e6d0;
+  --tone-ink: #886a40;
 }
 
 .tone-cocoa {
-  --tone-bg: #e8ddd7;
-  --tone-ink: #684a3f;
+  --tone-bg: #eae0da;
+  --tone-ink: #705244;
 }
 
 .tone-vanilla {
-  --tone-bg: #f2ead6;
-  --tone-ink: #806b3f;
+  --tone-bg: #f4edd8;
+  --tone-ink: #887245;
 }
 
 .tone-berry {
-  --tone-bg: #efdce0;
-  --tone-ink: #824655;
+  --tone-bg: #f0dee4;
+  --tone-ink: #8e4e5e;
 }
 
 .tone-fig {
-  --tone-bg: #e7dce2;
-  --tone-ink: #69495c;
+  --tone-bg: #eae0e8;
+  --tone-ink: #704e64;
 }
 
 .tone-honey {
-  --tone-bg: #f5e5c4;
-  --tone-ink: #91652b;
+  --tone-bg: #f6e8ca;
+  --tone-ink: #987030;
 }
 
 .tone-lilac {
-  --tone-bg: #e8e0ee;
-  --tone-ink: #675178;
+  --tone-bg: #e8e2f0;
+  --tone-ink: #6e5685;
 }
 
 .tone-coffee {
-  --tone-bg: #e8ddd4;
-  --tone-ink: #73513c;
+  --tone-bg: #ebe0d8;
+  --tone-ink: #7a5842;
 }
 
 .tone-sage {
-  --tone-bg: #dfe8dc;
-  --tone-ink: #52704d;
+  --tone-bg: #e0eade;
+  --tone-ink: #587852;
 }
 
 .tone-slate {
-  --tone-bg: #e2e5e4;
-  --tone-ink: #52615d;
+  --tone-bg: #e0e6ea;
+  --tone-ink: #506068;
 }
 
 @media (max-width: 980px) {

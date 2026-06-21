@@ -284,7 +284,7 @@ const rawRecipes = [];
 for (const file of files) {
   const source = await readFile(file, "utf8");
   const { data, body } = parseFrontmatter(source);
-  const title = path.basename(file, ".md");
+  const title = data.title || path.basename(file, ".md");
   const categoryFolder = path.basename(path.dirname(file));
   const category =
     categoryOrder.find((item) => item.toLowerCase() === String(data.category || "").toLowerCase()) ||
