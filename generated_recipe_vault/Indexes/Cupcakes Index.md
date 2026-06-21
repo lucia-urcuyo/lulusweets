@@ -1,0 +1,15 @@
+# Cupcakes
+
+- [[Almond Cupcakes]]
+- [[Banana Cupcakes]]
+- [[Chocolate Baileys Espresso Rum Cupcakes]]
+- [[Chocolate Cupcakes]]
+- [[Coconut Cupcakes]]
+- [[Funfetti Cupcakes]]
+- [[Lime Cupcakes]]
+- [[Mango Cupcakes]]
+- [[Matcha Cupcakes]]
+- [[Orange Cupcakes]]
+- [[Red Velvet Cupcakes]]
+- [[Vanilla Cupcakes]]
+- [[Yellow Cupcakes]]

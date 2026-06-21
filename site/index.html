@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f9f4ed" />
+    <meta
+      name="description"
+      content="Lulusweets — a personal cookbook for cakes, pastries, fillings, frostings, and more."
+    />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Lulusweets</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to recipes</a>
+    <header class="site-header">
+      <a class="brand" href="#/" aria-label="Lulusweets home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>
+          <strong>Lulusweets</strong>
+          <small>My recipe collection</small>
+        </span>
+      </a>
+      <nav class="header-actions" aria-label="Primary">
+        <button class="icon-button" id="header-search-button" type="button" aria-label="Search recipes">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5"></circle>
+            <path d="m16 16 4 4"></path>
+          </svg>
+        </button>
+        <button class="install-button" id="install-button" type="button" hidden>Install cookbook</button>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <div class="loading-state" id="loading-state">
+        <span class="loading-mark">L</span>
+        <p>Opening the cookbook…</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <span>Lulusweets</span>
+      <span>Made from Markdown · Available offline</span>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

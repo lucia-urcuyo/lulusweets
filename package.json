@@ -1,0 +1,13 @@
+{
+  "name": "lulusweets-cookbook",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "smoke": "node scripts/browser-smoke.mjs",
+    "check": "npm run build && npm run validate"
+  }
+}

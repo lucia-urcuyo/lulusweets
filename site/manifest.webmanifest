@@ -1,0 +1,18 @@
+{
+  "name": "Lulusweets Cookbook",
+  "short_name": "Lulusweets",
+  "description": "A searchable personal cookbook for cakes, pastries, fillings, frostings, and more.",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f9f4ed",
+  "theme_color": "#f9f4ed",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

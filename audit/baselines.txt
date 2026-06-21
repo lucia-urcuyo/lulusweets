@@ -1,0 +1,22 @@
+Lulusweets Phase 1 — Source Baselines
+Generated: 2026-06-20
+
+Recipe.docx (PDF, mislabeled as .docx):
+  SHA-256: 9ab58b840bc4d146ecd6bdacb069e37352f53749baba837e0aaf27c383232348
+  Size: 9,805,089 bytes
+  Pages: 102
+  Note: Identical to Downloads/Recipe.docx.pdf and Downloads/Recipe.pdf
+
+Recipe.docx.md (Markdown conversion):
+  SHA-256: 7ab3ad8d258bbb8bd75fd227f098ff9fd75148e294b5cbd994ee8dd684e08d85
+  Lines: 2,335
+
+generated_recipe_vault (prototype Obsidian vault):
+  Files SHA-256: 630c238fb6bfcf0ed3d77a4ea9c0bdca6c59b01 (hash of sorted file list)
+  Recipe files: 98
+  Category folders: 14 populated + 1 empty (Healthy Recipes)
+  Index files: 14
+  Template: 1
+
+Images extracted: 49 (in audit/images/)
+  46 JPEG + 3 PNG

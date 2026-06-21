@@ -1,0 +1,99 @@
+source_title,source_category,source_line,vault_file,vault_category,status,issues
+Vanilla Cake,Cakes,41,Cakes/Vanilla Cake.md,Cakes,complete,
+Chocolate Cake,Cakes,72,Cakes/Chocolate Cake.md,Cakes,complete,
+Funfetti Cake,Cakes,104,Cakes/Funfetti Cake.md,Cakes,complete,Heading uses **bold** without ##
+Red Velvet Cake,Cakes,133,Cakes/Red Velvet Cake.md,Cakes,complete,
+Chocolate Baileys/Espresso Rum Cake,Cakes,164,Cakes/Chocolate Baileys Espresso Rum Cake.md,Cakes,complete,Name: slash to space
+Almond Cake,Cakes,191,Cakes/Almond Cake.md,Cakes,complete,
+Crème Brûlée Cake,Cakes,222,Cakes/Crème Brûlée Cake.md,Cakes,complete,Heading uses **bold** without ##; multi-component recipe
+Pistachio Cake,Cakes,282,Cakes/Pistachio Cake.md,Cakes,complete,
+Pecan Cake,Cakes,314,Cakes/Pecan Cake.md,Cakes,complete,
+Lime Cake,Cakes,356,Cakes/Lime Cake.md,Cakes,complete,
+Champagne Cake,Cakes,387,Cakes/Champagne Cake.md,Cakes,complete,
+Vanilla Cupcakes,Cupcakes,439,Cupcakes/Vanilla Cupcakes.md,Cupcakes,misassigned,Ingredient table belongs to Chocolate Cupcakes; missing ## Ingredients heading
+Chocolate Cupcakes,Cupcakes,463,Cupcakes/Chocolate Cupcakes.md,Cupcakes,misassigned,Ingredient table belongs to Vanilla Cupcakes; missing ## Ingredients heading
+Yellow Cupcakes,Cupcakes,489,Cupcakes/Yellow Cupcakes.md,Cupcakes,misassigned,Ingredient table belongs to Funfetti Cupcakes; missing ## Ingredients heading
+Funfetti Cupcakes,Cupcakes,514,Cupcakes/Funfetti Cupcakes.md,Cupcakes,misassigned,Ingredient table belongs to Red Velvet Cupcakes; missing ## Ingredients heading
+Red Velvet Cupcakes,Cupcakes,549,Cupcakes/Red Velvet Cupcakes.md,Cupcakes,misassigned,Ingredient table belongs to Banana Cupcakes; missing ## Ingredients heading
+Banana Cupcakes,Cupcakes,574,Cupcakes/Banana Cupcakes.md,Cupcakes,misassigned,Ingredient table belongs to Matcha Cupcakes; missing ## Ingredients heading
+Matcha Cupcakes,Cupcakes,598,Cupcakes/Matcha Cupcakes.md,Cupcakes,misassigned,No ingredient table (displaced to Banana Cupcakes entry)
+Coconut Cupcakes,Cupcakes,609,Cupcakes/Coconut Cupcakes.md,Cupcakes,complete,
+Mango Cupcakes,Cupcakes,636,Cupcakes/Mango Cupcakes.md,Cupcakes,complete,
+Almond Cupcakes,Cupcakes,663,Cupcakes/Almond Cupcakes.md,Cupcakes,complete,
+Chocolate Baileys/Espresso Rum Cupcakes,Cupcakes,706,Cupcakes/Chocolate Baileys Espresso Rum Cupcakes.md,Cupcakes,structural,Name: slash to space; ingredient table orphaned before heading
+Orange Cupcakes,Cupcakes,738,Cupcakes/Orange Cupcakes.md,Cupcakes,structural,Ingredient table orphaned before heading; missing ## Ingredients heading
+Lime Cupcakes,Cupcakes,767,Cupcakes/Lime Cupcakes.md,Cupcakes,structural,Ingredient table orphaned before heading; missing ## Ingredients heading
+Vanilla Buttercream,Buttercreams,804,Frostings/Vanilla Buttercream.md,Frostings,complete,
+Chocolate Buttercream,Buttercreams,824,Frostings/Chocolate Buttercream.md,Frostings,complete,
+Baileys/Espresso Rum Buttercream,Buttercreams,878,Frostings/Baileys Espresso Rum Buttercream.md,Frostings,complete,Name: slash to space
+Almond Buttercream,Buttercreams,892,Frostings/Almond Buttercream.md,Frostings,complete,
+Cream Cheese Buttercream,Buttercreams,904,Frostings/Cream Cheese Buttercream.md,Frostings,complete,
+Chocolate Cream Cheese Buttercream,Buttercreams,918,Frostings/Chocolate Cream Cheese Buttercream.md,Frostings,complete,
+Champagne Buttercream,Buttercreams,931,Frostings/Champagne Buttercream.md,Frostings,partial,Contains Dulce de Leche ingredient table (lines 943-950)
+Dulce de Leche Buttercream,Buttercreams,956,Frostings/Dulce de Leche Buttercream.md,Frostings,empty,Ingredients misplaced in Champagne Buttercream; vault file is empty
+Coconut Buttercream,Buttercreams,958,Frostings/Coconut Buttercream.md,Frostings,complete,
+Condensed Milk Buttercream,Buttercreams,969,Frostings/Condensed Milk Buttercream.md,Frostings,complete,
+Mango Buttercream,Buttercreams,980,Frostings/Mango Buttercream.md,Frostings,complete,
+Peanut Butter Buttercream,Buttercreams,991,Frostings/Peanut Butter Buttercream.md,Frostings,complete,
+Key Lime Pie Buttercream,Buttercreams,1002,Frostings/Key Lime Pie Buttercream.md,Frostings,complete,
+Orange Buttercream,Buttercreams,1018,Frostings/Orange Buttercream.md,Frostings,complete,
+Brown Butter Buttercream,Buttercreams,1034,Frostings/Brown Butter Buttercream.md,Frostings,complete,
+Salted Caramel Buttercream,Buttercreams,1044,Frostings/Salted Caramel Buttercream.md,Frostings,complete,
+Ermine Buttercream,Buttercreams,1058,Frostings/Ermine Buttercream.md,Frostings,complete,
+Swiss Meringue Buttercream,Buttercreams,1084,Frostings/Swiss Meringue Buttercream.md,Frostings,complete,
+French Buttercream,Buttercreams,1109,Frostings/French Buttercream.md,Frostings,complete,
+Pie Dough,Pies,1138,Pies/Pie Dough.md,Pies,complete,
+Apple Pie,Pies,1167,Pies/Apple Pie.md,Pies,complete,
+Blueberry Pie,Pies,1191,Pies/Blueberry Pie.md,Pies,complete,
+Pumpkin Pie,Pies,1216,Pies/Pumpkin Pie.md,Pies,complete,
+Pecan Praline Topping,Pies,1250,Pies/Pecan Praline Topping.md,Pies,structural,Missing ## Ingredients heading
+Streusel Topping,Pies,1275,Pies/Streusel Topping.md,Pies,complete,
+Chocolate Ganache,Sauces,1313,Sauces/Chocolate Ganache.md,Sauces,complete,
+White Chocolate Ganache,Sauces,1322,Sauces/White Chocolate Ganache.md,Sauces,complete,
+Chewy Caramel,Sauces,1343,Sauces/Chewy Caramel.md,Sauces,complete,
+Caramel Sauce,Sauces,1364,Sauces/Caramel Sauce.md,Sauces,complete,
+Pecan Pie Caramel,Sauces,1375,Sauces/Pecan Pie Caramel.md,Sauces,complete,
+Balsamic Caramel,Sauces,1396,Sauces/Balsamic Caramel.md,Sauces,complete,
+Chocolate Fudge Sauce,Sauces,1415,Sauces/Chocolate Fudge Sauce.md,Sauces,complete,
+Chocolate Baileys/Espresso Rum Ganache,Sauces,1436,Sauces/Chocolate Baileys Espresso Rum Ganache.md,Sauces,complete,Name: slash to space
+Coconut Cream,Sauces,1451,Sauces/Coconut Cream.md,Sauces,complete,
+Passionfruit Curd,Sauces,1474,Sauces/Passionfruit Curd.md,Sauces,complete,
+Nut Praline,Sauces,1493,Sauces/Nut Praline.md,Sauces,complete,
+Pastry Cream,Sauces,1526,Sauces/Pastry Cream.md,Sauces,structural,Missing ## Ingredients heading
+Nutella Cremeux,Sauces,1560,Sauces/Nutella Cremeux.md,Sauces,complete,
+Pumpkin Pie Filling,Sauces,1592,Sauces/Pumpkin Pie Filling.md,Sauces,complete,
+Pumpkin Cheesecake Filling,Sauces,1612,Sauces/Pumpkin Cheesecake Filling.md,Sauces,complete,
+Cheesecake Filling,Sauces,1632,Sauces/Cheesecake Filling.md,Sauces,complete,
+Balsamic Blueberry Filling,Sauces,1646,Sauces/Balsamic Blueberry Filling.md,Sauces,complete,
+Cranberry Sauce Filling,Sauces,1664,Sauces/Cranberry Sauce Filling.md,Sauces,complete,
+Glossy Glaze,Sauces,1683,Sauces/Glossy Glaze.md,Sauces,complete,
+Mousseline,Sauces,1704,Sauces/Mousseline.md,Sauces,complete,
+Tropical Fruit Reduction,Sauces,1717,Sauces/Tropical Fruit Reduction.md,Sauces,complete,
+Banana Espresso Milk Jam,Sauces,1735,Sauces/Banana Espresso Milk Jam.md,Sauces,complete,
+Tart Crust,Tarts,1759,Tarts/Tart Crust.md,Tarts,complete,
+Fruit Tart,Tarts,1781,Tarts/Fruit Tart.md,Tarts,complete,
+Hazelnut Chocolate Tart,Tarts,1790,Tarts/Hazelnut Chocolate Tart.md,Tarts,complete,
+Caramel Tart,Tarts,1799,Tarts/Caramel Tart.md,Tarts,complete,
+Passionfruit Chocolate Tart,Tarts,1810,Tarts/Passionfruit Chocolate Tart.md,Tarts,complete,
+Doughnuts,Dough,1824,Doughs/Doughnuts.md,Doughs,complete,
+Chocolate Chip Cookies,Cookies,1880,Cookies/Chocolate Chip Cookies.md,Cookies,complete,
+Oat and Pecan Brittle Cookies,Cookies,1910,Cookies/Oat and Pecan Brittle Cookies.md,Cookies,structural,Uses subsection headings instead of ## Instructions
+Graham Cracker Crust,Cookie Crusts,1968,Cookie Crusts/Graham Cracker Crust.md,Cookie Crusts,complete,
+New York Style Cheesecake,Cheesecake,2001,Cheesecakes/New York Style Cheesecake.md,Cheesecakes,complete,
+Chewy Caramel Blondies,Blondies,2031,Blondies/Chewy Caramel Blondies.md,Blondies,complete,
+Berries & White Chocolate Blondies,Blondies,2055,Blondies/Berries & White Chocolate Blondies.md,Blondies,complete,
+Macaron Shells,Macarons,2100,Macarons/Macaron Shells.md,Macarons,complete,
+Matcha Macaron Shells,Macarons,2130,Macarons/Matcha Macaron Shells.md,Macarons,complete,
+Chocolate Macaron Shells,Macarons,2141,Macarons/Chocolate Macaron Shells.md,Macarons,complete,
+Caramel Macarons,Macarons,2152,Macarons/Caramel Macarons.md,Macarons,complete,
+Pecan Pie Macarons,Macarons,2160,Macarons/Pecan Pie Macarons.md,Macarons,complete,
+Hazelnut Praline Macarons,Macarons,2168,Macarons/Hazelnut Praline Macarons.md,Macarons,complete,
+Orange Cranberry Macarons,Macarons,2176,Macarons/Orange Cranberry Macarons.md,Macarons,complete,
+Passionfruit Macarons,Macarons,2184,Macarons/Passionfruit Macarons.md,Macarons,complete,
+Balsamic Caramel and Strawberry Macarons,Macarons,2193,Macarons/Balsamic Caramel and Strawberry Macarons.md,Macarons,complete,
+Balsamic Blueberry Cheesecake Macarons,Macarons,2201,Macarons/Balsamic Blueberry Cheesecake Macarons.md,Macarons,complete,
+Pate a Choux,Eclairs,2219,Eclairs/Pate a Choux.md,Eclairs,complete,
+Caramel Eclairs,Eclairs,2246,Eclairs/Caramel Eclairs.md,Eclairs,complete,
+Pumpkin Spice Eclairs,Eclairs,2254,Eclairs/Pumpkin Spice Eclairs.md,Eclairs,complete,
+Tres Leche,Miscellaneous,2265,Miscellaneous/Tres Leche.md,Miscellaneous,complete,
+Flan,Miscellaneous,2313,Miscellaneous/Flan.md,Miscellaneous,complete,

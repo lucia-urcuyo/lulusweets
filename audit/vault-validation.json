@@ -1,0 +1,941 @@
+{
+  "generated": "2026-06-20T13:27:19.567066",
+  "vault_path": "/Users/luciaurcuyo/Desktop/lulusweets/generated_recipe_vault",
+  "summary": {
+    "total_recipes": 98,
+    "categories": {
+      "blondies": 2,
+      "cakes": 11,
+      "cheesecakes": 1,
+      "cookie crusts": 1,
+      "cookies": 2,
+      "cupcakes": 13,
+      "doughs": 1,
+      "eclairs": 3,
+      "frostings": 19,
+      "macarons": 10,
+      "miscellaneous": 2,
+      "pies": 6,
+      "sauces": 22,
+      "tarts": 5
+    },
+    "total_wikilinks": 53,
+    "broken_wikilinks": 0,
+    "structural_notes": 30,
+    "issues": 0,
+    "gate_status": "PASS"
+  },
+  "recipes": [
+    {
+      "file": "Blondies/Berries & White Chocolate Blondies.md",
+      "name": "Berries & White Chocolate Blondies",
+      "category": "blondies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "486175a32cd8194c"
+    },
+    {
+      "file": "Blondies/Chewy Caramel Blondies.md",
+      "name": "Chewy Caramel Blondies",
+      "category": "blondies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "7576a1e680230c1a"
+    },
+    {
+      "file": "Cakes/Almond Cake.md",
+      "name": "Almond Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "1d4702e64138a7a6"
+    },
+    {
+      "file": "Cakes/Champagne Cake.md",
+      "name": "Champagne Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "e975e71578a3f801"
+    },
+    {
+      "file": "Cakes/Chocolate Baileys Espresso Rum Cake.md",
+      "name": "Chocolate Baileys Espresso Rum Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "db3d9865f82517d2"
+    },
+    {
+      "file": "Cakes/Chocolate Cake.md",
+      "name": "Chocolate Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "c66e1ba1498f9817"
+    },
+    {
+      "file": "Cakes/Cr\u00e8me Br\u00fbl\u00e9e Cake.md",
+      "name": "Cr\u00e8me Br\u00fbl\u00e9e Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "8b82d872b992c2f2"
+    },
+    {
+      "file": "Cakes/Funfetti Cake.md",
+      "name": "Funfetti Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "48390b3963086ba3"
+    },
+    {
+      "file": "Cakes/Lime Cake.md",
+      "name": "Lime Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "d2b29f47faf5715f"
+    },
+    {
+      "file": "Cakes/Pecan Cake.md",
+      "name": "Pecan Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "a6a24ec03f8718e2"
+    },
+    {
+      "file": "Cakes/Pistachio Cake.md",
+      "name": "Pistachio Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "0b45f38422dee422"
+    },
+    {
+      "file": "Cakes/Red Velvet Cake.md",
+      "name": "Red Velvet Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "72fe21bfa5220f96"
+    },
+    {
+      "file": "Cakes/Vanilla Cake.md",
+      "name": "Vanilla Cake",
+      "category": "cakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "b42ae53ef6471e25"
+    },
+    {
+      "file": "Cheesecakes/New York Style Cheesecake.md",
+      "name": "New York Style Cheesecake",
+      "category": "cheesecakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "f49f14afd3801780"
+    },
+    {
+      "file": "Cookie Crusts/Graham Cracker Crust.md",
+      "name": "Graham Cracker Crust",
+      "category": "cookie crusts",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "4d22d8880f829bcd"
+    },
+    {
+      "file": "Cookies/Chocolate Chip Cookies.md",
+      "name": "Chocolate Chip Cookies",
+      "category": "cookies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "83575a45d99f3420"
+    },
+    {
+      "file": "Cookies/Oat and Pecan Brittle Cookies.md",
+      "name": "Oat and Pecan Brittle Cookies",
+      "category": "cookies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "b8262a0358340e07"
+    },
+    {
+      "file": "Cupcakes/Almond Cupcakes.md",
+      "name": "Almond Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "ac925669053f99fe"
+    },
+    {
+      "file": "Cupcakes/Banana Cupcakes.md",
+      "name": "Banana Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "77b0db37d2c21b9e"
+    },
+    {
+      "file": "Cupcakes/Chocolate Baileys Espresso Rum Cupcakes.md",
+      "name": "Chocolate Baileys Espresso Rum Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "b7f4f3da70a55672"
+    },
+    {
+      "file": "Cupcakes/Chocolate Cupcakes.md",
+      "name": "Chocolate Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "7efaad08bd8614bc"
+    },
+    {
+      "file": "Cupcakes/Coconut Cupcakes.md",
+      "name": "Coconut Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "32123fe2f2e259a0"
+    },
+    {
+      "file": "Cupcakes/Funfetti Cupcakes.md",
+      "name": "Funfetti Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "197a1e8800db9e97"
+    },
+    {
+      "file": "Cupcakes/Lime Cupcakes.md",
+      "name": "Lime Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "f1fc8e42ce4bf494"
+    },
+    {
+      "file": "Cupcakes/Mango Cupcakes.md",
+      "name": "Mango Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "26e88b434891eeec"
+    },
+    {
+      "file": "Cupcakes/Matcha Cupcakes.md",
+      "name": "Matcha Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "77173dc61386ecb2"
+    },
+    {
+      "file": "Cupcakes/Orange Cupcakes.md",
+      "name": "Orange Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "a7c0e1008d9b726f"
+    },
+    {
+      "file": "Cupcakes/Red Velvet Cupcakes.md",
+      "name": "Red Velvet Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "50667998aaf2c570"
+    },
+    {
+      "file": "Cupcakes/Vanilla Cupcakes.md",
+      "name": "Vanilla Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "6a9fc7a24ea0da99"
+    },
+    {
+      "file": "Cupcakes/Yellow Cupcakes.md",
+      "name": "Yellow Cupcakes",
+      "category": "cupcakes",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "6d536e33c02474c2"
+    },
+    {
+      "file": "Doughs/Doughnuts.md",
+      "name": "Doughnuts",
+      "category": "doughs",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "425692ad04ce9354"
+    },
+    {
+      "file": "Eclairs/Caramel Eclairs.md",
+      "name": "Caramel Eclairs",
+      "category": "eclairs",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "89d485cb2b999d71"
+    },
+    {
+      "file": "Eclairs/Pate a Choux.md",
+      "name": "Pate a Choux",
+      "category": "eclairs",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "41d27b07e337b4d3"
+    },
+    {
+      "file": "Eclairs/Pumpkin Spice Eclairs.md",
+      "name": "Pumpkin Spice Eclairs",
+      "category": "eclairs",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "bc6e319b91092a23"
+    },
+    {
+      "file": "Frostings/Almond Buttercream.md",
+      "name": "Almond Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "d28be27c40af446e"
+    },
+    {
+      "file": "Frostings/Baileys Espresso Rum Buttercream.md",
+      "name": "Baileys Espresso Rum Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "2dc802c3e373a4a3"
+    },
+    {
+      "file": "Frostings/Brown Butter Buttercream.md",
+      "name": "Brown Butter Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "e2a2a0fe65c96441"
+    },
+    {
+      "file": "Frostings/Champagne Buttercream.md",
+      "name": "Champagne Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "338dcfa148b616f3"
+    },
+    {
+      "file": "Frostings/Chocolate Buttercream.md",
+      "name": "Chocolate Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "6eb47b9bae2125a9"
+    },
+    {
+      "file": "Frostings/Chocolate Cream Cheese Buttercream.md",
+      "name": "Chocolate Cream Cheese Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "64c8fb8586ada18f"
+    },
+    {
+      "file": "Frostings/Coconut Buttercream.md",
+      "name": "Coconut Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "20326453b7c9f6b4"
+    },
+    {
+      "file": "Frostings/Condensed Milk Buttercream.md",
+      "name": "Condensed Milk Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "eb74047c63f18ec2"
+    },
+    {
+      "file": "Frostings/Cream Cheese Buttercream.md",
+      "name": "Cream Cheese Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "c45163b9d853f249"
+    },
+    {
+      "file": "Frostings/Dulce de Leche Buttercream.md",
+      "name": "Dulce de Leche Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "fb4a3d3efdbc8115"
+    },
+    {
+      "file": "Frostings/Ermine Buttercream.md",
+      "name": "Ermine Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "10f125d62d5c9392"
+    },
+    {
+      "file": "Frostings/French Buttercream.md",
+      "name": "French Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "a611327670e7ad70"
+    },
+    {
+      "file": "Frostings/Key Lime Pie Buttercream.md",
+      "name": "Key Lime Pie Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "423e5e87f6935799"
+    },
+    {
+      "file": "Frostings/Mango Buttercream.md",
+      "name": "Mango Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "9b41cc74567e8f89"
+    },
+    {
+      "file": "Frostings/Orange Buttercream.md",
+      "name": "Orange Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "d4b1b04cc36a63a3"
+    },
+    {
+      "file": "Frostings/Peanut Butter Buttercream.md",
+      "name": "Peanut Butter Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "eb83d8c37e50cee4"
+    },
+    {
+      "file": "Frostings/Salted Caramel Buttercream.md",
+      "name": "Salted Caramel Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "ec7b2995e5ec8459"
+    },
+    {
+      "file": "Frostings/Swiss Meringue Buttercream.md",
+      "name": "Swiss Meringue Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "d6c1cb09fadb912a"
+    },
+    {
+      "file": "Frostings/Vanilla Buttercream.md",
+      "name": "Vanilla Buttercream",
+      "category": "frostings",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "ee7e6766b492ff63"
+    },
+    {
+      "file": "Macarons/Balsamic Blueberry Cheesecake Macarons.md",
+      "name": "Balsamic Blueberry Cheesecake Macarons",
+      "category": "macarons",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "26acad9d6f75a67c"
+    },
+    {
+      "file": "Macarons/Balsamic Caramel and Strawberry Macarons.md",
+      "name": "Balsamic Caramel and Strawberry Macarons",
+      "category": "macarons",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "a389f1df66a9c5e2"
+    },
+    {
+      "file": "Macarons/Caramel Macarons.md",
+      "name": "Caramel Macarons",
+      "category": "macarons",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "e669ca3d8316c5b5"
+    },
+    {
+      "file": "Macarons/Chocolate Macaron Shells.md",
+      "name": "Chocolate Macaron Shells",
+      "category": "macarons",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "c921848438ba85a8"
+    },
+    {
+      "file": "Macarons/Hazelnut Praline Macarons.md",
+      "name": "Hazelnut Praline Macarons",
+      "category": "macarons",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "c4de53416e719a4a"
+    },
+    {
+      "file": "Macarons/Macaron Shells.md",
+      "name": "Macaron Shells",
+      "category": "macarons",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "b5efc0385623287d"
+    },
+    {
+      "file": "Macarons/Matcha Macaron Shells.md",
+      "name": "Matcha Macaron Shells",
+      "category": "macarons",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "8217300369f142e3"
+    },
+    {
+      "file": "Macarons/Orange Cranberry Macarons.md",
+      "name": "Orange Cranberry Macarons",
+      "category": "macarons",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "1eec28c5f33f0b8b"
+    },
+    {
+      "file": "Macarons/Passionfruit Macarons.md",
+      "name": "Passionfruit Macarons",
+      "category": "macarons",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "7f7857f4fcc86c84"
+    },
+    {
+      "file": "Macarons/Pecan Pie Macarons.md",
+      "name": "Pecan Pie Macarons",
+      "category": "macarons",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "3552ded4b555b8f0"
+    },
+    {
+      "file": "Miscellaneous/Flan.md",
+      "name": "Flan",
+      "category": "miscellaneous",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "18928aad12a79fe2"
+    },
+    {
+      "file": "Miscellaneous/Tres Leche.md",
+      "name": "Tres Leche",
+      "category": "miscellaneous",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "309454f8691be414"
+    },
+    {
+      "file": "Pies/Apple Pie.md",
+      "name": "Apple Pie",
+      "category": "pies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "292e98d9c83c7bf9"
+    },
+    {
+      "file": "Pies/Blueberry Pie.md",
+      "name": "Blueberry Pie",
+      "category": "pies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "9ceb1951e446ce5a"
+    },
+    {
+      "file": "Pies/Pecan Praline Topping.md",
+      "name": "Pecan Praline Topping",
+      "category": "pies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "73e3e1ee05ad3ff8"
+    },
+    {
+      "file": "Pies/Pie Dough.md",
+      "name": "Pie Dough",
+      "category": "pies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "84608b84ad73af50"
+    },
+    {
+      "file": "Pies/Pumpkin Pie.md",
+      "name": "Pumpkin Pie",
+      "category": "pies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "5da9515d7d5c3e58"
+    },
+    {
+      "file": "Pies/Streusel Topping.md",
+      "name": "Streusel Topping",
+      "category": "pies",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "e2e417041f0344e5"
+    },
+    {
+      "file": "Sauces/Balsamic Blueberry Filling.md",
+      "name": "Balsamic Blueberry Filling",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "a6b84908d575136c"
+    },
+    {
+      "file": "Sauces/Balsamic Caramel.md",
+      "name": "Balsamic Caramel",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "8ec35f073187eabc"
+    },
+    {
+      "file": "Sauces/Banana Espresso Milk Jam.md",
+      "name": "Banana Espresso Milk Jam",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "989d2d0ca8939534"
+    },
+    {
+      "file": "Sauces/Caramel Sauce.md",
+      "name": "Caramel Sauce",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": false,
+      "sha256": "aff2d0fa42ce70de"
+    },
+    {
+      "file": "Sauces/Cheesecake Filling.md",
+      "name": "Cheesecake Filling",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "9a97c957403fa01e"
+    },
+    {
+      "file": "Sauces/Chewy Caramel.md",
+      "name": "Chewy Caramel",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "31e6d8337a3802f1"
+    },
+    {
+      "file": "Sauces/Chocolate Baileys Espresso Rum Ganache.md",
+      "name": "Chocolate Baileys Espresso Rum Ganache",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "f74f9a7a18aaeb6b"
+    },
+    {
+      "file": "Sauces/Chocolate Fudge Sauce.md",
+      "name": "Chocolate Fudge Sauce",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "c4626c66fd18f316"
+    },
+    {
+      "file": "Sauces/Chocolate Ganache.md",
+      "name": "Chocolate Ganache",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "9eb466c6d275ff5a"
+    },
+    {
+      "file": "Sauces/Coconut Cream.md",
+      "name": "Coconut Cream",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "c1135a7a6089da92"
+    },
+    {
+      "file": "Sauces/Cranberry Sauce Filling.md",
+      "name": "Cranberry Sauce Filling",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "57bf433f70d68693"
+    },
+    {
+      "file": "Sauces/Glossy Glaze.md",
+      "name": "Glossy Glaze",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "adcbb1917d6c568e"
+    },
+    {
+      "file": "Sauces/Mousseline.md",
+      "name": "Mousseline",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "5d94bc577effb370"
+    },
+    {
+      "file": "Sauces/Nut Praline.md",
+      "name": "Nut Praline",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "1dac6a3fdc296734"
+    },
+    {
+      "file": "Sauces/Nutella Cremeux.md",
+      "name": "Nutella Cremeux",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "23aa027eb00c8370"
+    },
+    {
+      "file": "Sauces/Passionfruit Curd.md",
+      "name": "Passionfruit Curd",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "cb88bc97ced5d501"
+    },
+    {
+      "file": "Sauces/Pastry Cream.md",
+      "name": "Pastry Cream",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "23ca083abd482a83"
+    },
+    {
+      "file": "Sauces/Pecan Pie Caramel.md",
+      "name": "Pecan Pie Caramel",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "1eabb5495ac34adc"
+    },
+    {
+      "file": "Sauces/Pumpkin Cheesecake Filling.md",
+      "name": "Pumpkin Cheesecake Filling",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "d84212a6bfac59d7"
+    },
+    {
+      "file": "Sauces/Pumpkin Pie Filling.md",
+      "name": "Pumpkin Pie Filling",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "f338a1a9022499a5"
+    },
+    {
+      "file": "Sauces/Tropical Fruit Reduction.md",
+      "name": "Tropical Fruit Reduction",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "2bce54825df4cfbd"
+    },
+    {
+      "file": "Sauces/White Chocolate Ganache.md",
+      "name": "White Chocolate Ganache",
+      "category": "sauces",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "b0bede1f10e209c6"
+    },
+    {
+      "file": "Tarts/Caramel Tart.md",
+      "name": "Caramel Tart",
+      "category": "tarts",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "c7b8c001539ba029"
+    },
+    {
+      "file": "Tarts/Fruit Tart.md",
+      "name": "Fruit Tart",
+      "category": "tarts",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "46b356e1bfec0da6"
+    },
+    {
+      "file": "Tarts/Hazelnut Chocolate Tart.md",
+      "name": "Hazelnut Chocolate Tart",
+      "category": "tarts",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "dea7caf73f15a74e"
+    },
+    {
+      "file": "Tarts/Passionfruit Chocolate Tart.md",
+      "name": "Passionfruit Chocolate Tart",
+      "category": "tarts",
+      "has_ingredients": false,
+      "has_instructions": true,
+      "sha256": "dee2f4fda709e2e4"
+    },
+    {
+      "file": "Tarts/Tart Crust.md",
+      "name": "Tart Crust",
+      "category": "tarts",
+      "has_ingredients": true,
+      "has_instructions": true,
+      "sha256": "cb63f6bdfc2a8052"
+    }
+  ],
+  "structural_notes": [
+    {
+      "file": "Eclairs/Caramel Eclairs.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Eclairs/Pumpkin Spice Eclairs.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Frostings/Almond Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Baileys Espresso Rum Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Brown Butter Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Champagne Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Chocolate Cream Cheese Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Coconut Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Condensed Milk Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Cream Cheese Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Dulce de Leche Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Key Lime Pie Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Mango Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Orange Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Peanut Butter Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Frostings/Salted Caramel Buttercream.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Macarons/Balsamic Blueberry Cheesecake Macarons.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Macarons/Balsamic Caramel and Strawberry Macarons.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Macarons/Caramel Macarons.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Macarons/Chocolate Macaron Shells.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Macarons/Hazelnut Praline Macarons.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Macarons/Matcha Macaron Shells.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Macarons/Orange Cranberry Macarons.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Macarons/Passionfruit Macarons.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Macarons/Pecan Pie Macarons.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Sauces/Caramel Sauce.md",
+      "note": "ingredient variant \u2014 shares technique with base recipe"
+    },
+    {
+      "file": "Tarts/Caramel Tart.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Tarts/Fruit Tart.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Tarts/Hazelnut Chocolate Tart.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    },
+    {
+      "file": "Tarts/Passionfruit Chocolate Tart.md",
+      "note": "assembly recipe \u2014 references components via wikilinks"
+    }
+  ],
+  "issues": [],
+  "wikilinks": {
+    "total": 53,
+    "broken": []
+  }
+}

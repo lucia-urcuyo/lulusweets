@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "53f97b1b54ff37d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8537fe27a6f1a95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aef2da001d819555",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cakes/Champagne Cake.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Champagne Cake"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e950799e7e688bbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c81e0f198631c393",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b210c131582d7595",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "73904f265735cbf5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "37fab626cbc669e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "372375eb29190224",
+    "type": "split",
+    "children": [
+      {
+        "id": "84c97cca823678c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf568247bdced056",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cakes/Crème Brûlée Cake.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Crème Brûlée Cake"
+            }
+          },
+          {
+            "id": "279e8a432876c923",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cakes/Crème Brûlée Cake.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Crème Brûlée Cake"
+            }
+          },
+          {
+            "id": "09278ad368f53649",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "370f9f5ae734a64a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "253e608cc4ab94f0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cakes/Crème Brûlée Cake.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Crème Brûlée Cake"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "aef2da001d819555",
+  "lastOpenFiles": [
+    "Cupcakes/Vanilla Cupcakes.md",
+    "Frostings/Vanilla Buttercream.md",
+    "Indexes/Cakes Index.md",
+    "_templates/Recipe Template.md",
+    "_indexes/Cupcakes Index.md",
+    "Indexes/Frostings Index.md",
+    "Indexes/Cupcakes Index.md",
+    "Indexes",
+    "_indexes/Cakes Index.md",
+    "Cakes/Vanilla Cake.md",
+    "Cakes/Crème Brûlée Cake.md"
+  ]
+}
