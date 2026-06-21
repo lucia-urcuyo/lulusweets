@@ -1,0 +1,50 @@
+image_filename,recipe_name,category,confidence,notes
+page001_img01.jpeg,Cover/Title Page,N/A,high,Lulu Sweets logo - cupcake illustration with bird on top
+page005_img01.jpeg,Chocolate Cake,Cakes,high,Chocolate layer cake with chocolate buttercream rosettes on top; matches Chocolate Cake recipe on ~p5
+page006_img01.jpeg,Funfetti Cake,Cakes,high,Pink/red petal-frosted cake with rainbow sprinkles; matches Funfetti Cake recipe on ~p6
+page007_img01.jpeg,Red Velvet Cake,Cakes,high,Cream-frosted cake with chocolate drip and red velvet crumbs at base and top; matches Red Velvet on ~p7
+page009_img01.jpeg,Almond Cake,Cakes,high,White/cream cake with piped buttercream roses; matches Almond Cake recipe on ~p9
+page010_img01.jpeg,Creme Brulee Cake,Cakes,high,Cross-section showing white cake layers with custard filling and graham cracker crust layers; matches Creme Brulee Cake on ~p10
+page012_img01.jpeg,Pistachio Cake,Cakes,high,Green-tinted naked/semi-naked cake with fresh flowers; pistachio-colored layers visible; matches Pistachio Cake on ~p12
+page013_img01.jpeg,Pecan Cake,Cakes,high,Caramel/yellow buttercream cake with chopped pecans at base and top; matches Pecan Cake on ~p13
+page016_img01.jpeg,Champagne Cake,Cakes,high,Semi-naked cake with fresh flowers (rose and daisies); elegant style matches Champagne Cake on ~p16
+page020_img01.jpeg,Yellow Cupcakes,Cupcakes,high,Yellow cupcakes with chocolate buttercream and chocolate filling visible in cross-section; matches Yellow Cupcakes on ~p20
+page021_img01.png,Funfetti Cupcakes,Cupcakes,high,Cupcakes with rainbow-swirled frosting; matches Funfetti Cupcakes on ~p21
+page023_img01.jpeg,Red Velvet Cupcakes,Cupcakes,high,Dark red velvet cupcakes with cream cheese buttercream piped on top; matches Red Velvet Cupcakes on ~p23
+page024_img01.jpeg,Banana Cupcakes,Cupcakes,high,Cupcakes with caramel/brown butter colored frosting piped as roses; matches Banana Cupcakes on ~p24
+page025_img01.jpeg,Matcha Cupcakes,Cupcakes,high,Dark green cupcakes with white frosting dusted with matcha powder; matches Matcha Cupcakes on ~p25
+page026_img01.jpeg,Coconut Cupcakes,Cupcakes,high,Cupcakes with white frosting topped with toasted coconut flakes; matches Coconut Cupcakes on ~p26
+page027_img01.jpeg,Mango Cupcakes,Cupcakes,high,Cupcakes with yellow/mango-colored frosting surrounded by fresh mangos; matches Mango Cupcakes on ~p27
+page029_img01.jpeg,Almond Cupcakes,Cupcakes,high,White/cream cupcakes with elegant white buttercream piping; matches Almond Cupcakes on ~p29
+page030_img01.jpeg,Chocolate Baileys/Espresso Rum Cupcakes,Cupcakes,high,Chocolate cupcake cross-section showing chocolate ganache filling with chocolate buttercream; matches Chocolate Baileys Cupcakes on ~p30
+page036_img01.jpeg,Champagne Buttercream,Frostings,medium,Cake with light pink/champagne colored buttercream and rosettes on top; page position aligns with Champagne Buttercream section (~p36)
+page037_img01.jpeg,Chocolate Baileys/Espresso Rum Buttercream,Frostings,medium,Chocolate cupcakes with dark chocolate frosting swirls; could also be Chocolate Buttercream but page position matches Baileys Buttercream area (~p37)
+page038_img01.jpeg,Lime Cupcakes,Cupcakes,medium,Yellow-frosted cupcakes in a clear container; could be Lime or Orange cupcakes; page position near buttercream section is unexpected - may be illustrating a frosting recipe
+page039_img01.jpeg,Cream Cheese Buttercream,Frostings,high,Red velvet cupcakes with cream cheese frosting - classic pairing; cross-section visible showing red cake with white frosting; page position matches Cream Cheese Buttercream (~p39)
+page039_img02.jpeg,Chocolate Cream Cheese Buttercream,Frostings,medium,Chocolate cupcakes with chocolate frosting on tiered stand; page position matches Chocolate Cream Cheese Buttercream area (~p39)
+page040_img01.jpeg,Champagne Cake (alternate),Frostings,medium,Semi-naked cake with fresh flowers; similar to page016 image; may illustrate Champagne or Dulce de Leche Buttercream in use (~p40)
+page040_img02.jpeg,Dulce de Leche Buttercream,Frostings,high,Cupcakes with caramel/dulce de leche colored rosette frosting; golden brown color matches Dulce de Leche Buttercream on ~p40
+page041_img01.jpeg,Coconut Buttercream,Frostings,high,Coconut cupcake cross-section showing coconut cream filling and coconut flake topping; illustrates Coconut Buttercream on ~p41
+page041_img02.jpeg,Matcha Cupcakes (alternate),Frostings,medium,Matcha cupcakes with white frosting and matcha dusting; second matcha image; may illustrate Condensed Milk Buttercream used on matcha cupcakes (~p41)
+page042_img01.jpeg,Mango Buttercream,Frostings,high,Cupcakes with bright yellow/mango frosting; matches Mango Buttercream on ~p42
+page042_img02.jpeg,Peanut Butter Buttercream,Frostings,medium,Cupcakes with caramel/tan colored rosette frosting; could be Banana or Peanut Butter Buttercream; page position matches PB Buttercream (~p42)
+page044_img01.jpeg,Salted Caramel Buttercream,Frostings,high,Cake with caramel buttercream and caramel drip; matches Salted Caramel Buttercream on ~p44
+page049_img01.jpeg,Pie Dough,Pies,high,Hands rolling out pie dough with rolling pin on floured wooden surface in professional kitchen; matches Pie Dough recipe on ~p49
+page049_img02.jpeg,Pie Dough (step 2),Pies,high,Hands chopping dough with bench scraper on floured surface; matches Pie Dough instructions step 7 on ~p49
+page050_img01.jpeg,Apple Pie,Pies,high,Lattice-topped apple pie with Christmas decorations; matches Apple Pie recipe on ~p50
+page051_img01.jpeg,Blueberry Pie,Pies,high,Blueberry pie with streusel topping baking in oven; matches Blueberry Pie recipe on ~p51
+page051_img02.jpeg,Pumpkin Pie,Pies,high,Pumpkin pie with decorative pastry leaves and snowflakes on top with Christmas decorations; matches Pumpkin Pie recipe on ~p51
+page054_img01.png,Pecan Praline Topping,Pies,high,Small pumpkin pie with pecan praline topping; matches Pecan Praline Topping recipe on ~p54
+page073_img01.jpeg,Fruit Tart,Tarts,high,Tart shell filled with pastry cream and topped with fresh fruits (strawberries kiwi blueberries banana peach); matches Fruit Tart recipe
+page074_img01.jpeg,Hazelnut Chocolate Tart / Caramel Tart,Tarts,high,Two tarts - top one with sliced fruit rosette and bottom one with dark chocolate/hazelnut filling and gold leaf; matches Hazelnut Chocolate Tart and/or Caramel Tart
+page074_img02.jpeg,Passionfruit Chocolate Tart,Tarts,high,Tart with piped cream/ganache dots and pink candy sticks with gold leaf; matches Passionfruit Chocolate Tart recipe
+page077_img01.jpeg,Doughnuts,Dough,high,Sugar-coated doughnuts filled with various creams (pastry cream and cinnamon cream visible); matches Doughnuts recipe on ~p77
+page086_img01.jpeg,New York Style Cheesecake,Cheesecake,high,Cheesecake with pecan pie caramel topping on graham cracker crust; matches NY Cheesecake with Pecan Pie Caramel topping
+page088_img01.jpeg,Chewy Caramel Blondies,Blondies,high,Caramel blondies cut into squares with bubbly caramel top; matches Chewy Caramel Blondies recipe on ~p88
+page089_img01.jpeg,Chewy Caramel Blondies (alternate),Blondies,high,Same or very similar image to page088 - caramel blondies squares; duplicate or second angle of Chewy Caramel Blondies
+page091_img01.jpeg,Macaron Shells,Macarons,high,Galaxy-themed macarons in purple/blue with white dots; illustrates decorated Macaron Shells on ~p91
+page092_img01.jpeg,Matcha Macaron Shells,Macarons,medium,Bright green macarons filled with chocolate ganache; could be Matcha Macaron Shells or general macaron shells with green coloring
+page093_img01.jpeg,Caramel Macarons,Macarons,medium,Decorated macarons shaped like apples (red) and round (blue/teal) with gold leaf; artistic macaron designs in the Caramel/Pecan Pie Macarons section
+page096_img01.png,Eclairs,Eclairs,high,Assorted decorated eclairs with various toppings and glazes; matches Pate a Choux / Eclairs section on ~p96
+page099_img01.jpeg,Tres Leche,Miscellaneous,high,Tres leches cake slice on plate with milk pooling and strawberry on top with meringue; matches Tres Leche recipe on ~p99
+page100_img01.jpeg,Tres Leche (alternate),Miscellaneous,high,Close-up of tres leches cake slice showing soaked sponge with meringue and strawberry; second image of same Tres Leche recipe
