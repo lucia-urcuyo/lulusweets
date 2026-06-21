@@ -1,4 +1,5 @@
 ---
+title: "Pumpkin Pie"
 category: "pies"
 ---
 

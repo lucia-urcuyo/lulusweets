@@ -1,4 +1,5 @@
 ---
+title: "Funfetti Cake"
 category: "cakes"
 ---
 

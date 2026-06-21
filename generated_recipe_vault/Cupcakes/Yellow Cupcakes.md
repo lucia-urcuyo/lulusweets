@@ -1,4 +1,5 @@
 ---
+title: "Yellow Cupcakes"
 category: "cupcakes"
 ---
 

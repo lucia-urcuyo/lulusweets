@@ -1,4 +1,5 @@
 ---
+title: "Chocolate Ganache"
 category: "sauces"
 ---
 

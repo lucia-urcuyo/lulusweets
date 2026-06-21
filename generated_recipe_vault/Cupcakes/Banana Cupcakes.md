@@ -1,4 +1,5 @@
 ---
+title: "Banana Cupcakes"
 category: "cupcakes"
 ---
 

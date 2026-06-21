@@ -1,4 +1,5 @@
 ---
+title: "Fruit Tart"
 category: "tarts"
 ---
 

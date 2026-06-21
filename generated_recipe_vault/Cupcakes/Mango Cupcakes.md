@@ -1,4 +1,5 @@
 ---
+title: "Mango Cupcakes"
 category: "cupcakes"
 ---
 

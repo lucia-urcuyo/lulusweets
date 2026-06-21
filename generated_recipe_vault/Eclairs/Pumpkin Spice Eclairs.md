@@ -1,4 +1,5 @@
 ---
+title: "Pumpkin Spice Eclairs"
 category: "eclairs"
 ---
 

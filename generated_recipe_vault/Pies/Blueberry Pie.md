@@ -1,4 +1,5 @@
 ---
+title: "Blueberry Pie"
 category: "pies"
 ---
 

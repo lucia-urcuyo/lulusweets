@@ -1,4 +1,5 @@
 ---
+title: "Doughnuts"
 category: "doughs"
 ---
 

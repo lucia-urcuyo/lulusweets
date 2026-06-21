@@ -1,4 +1,5 @@
 ---
+title: "Peanut Butter Buttercream"
 category: "frostings"
 ---
 

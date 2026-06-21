@@ -1,4 +1,5 @@
 ---
+title: "Vanilla Cake"
 category: "cakes"
 ---
 

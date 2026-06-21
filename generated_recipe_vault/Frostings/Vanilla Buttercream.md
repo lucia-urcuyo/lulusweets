@@ -1,4 +1,5 @@
 ---
+title: "Vanilla Buttercream"
 category: "frostings"
 ---
 

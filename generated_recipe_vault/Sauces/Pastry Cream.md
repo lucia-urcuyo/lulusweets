@@ -1,4 +1,5 @@
 ---
+title: "Pastry Cream"
 category: "sauces"
 ---
 

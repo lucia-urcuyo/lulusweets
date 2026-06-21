@@ -1,4 +1,5 @@
 ---
+title: "Red Velvet Cupcakes"
 category: "cupcakes"
 ---
 

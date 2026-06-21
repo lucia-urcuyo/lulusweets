@@ -1,4 +1,5 @@
 ---
+title: "Passionfruit Chocolate Tart"
 category: "tarts"
 ---
 

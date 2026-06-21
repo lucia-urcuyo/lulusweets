@@ -1,4 +1,5 @@
 ---
+title: "Vanilla Cupcakes"
 category: "cupcakes"
 ---
 

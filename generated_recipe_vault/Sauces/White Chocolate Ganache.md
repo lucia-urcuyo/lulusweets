@@ -1,4 +1,5 @@
 ---
+title: "White Chocolate Ganache"
 category: "sauces"
 ---
 

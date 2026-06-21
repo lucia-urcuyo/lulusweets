@@ -1,4 +1,5 @@
 ---
+title: "Hazelnut Praline Macarons"
 category: "macarons"
 ---
 

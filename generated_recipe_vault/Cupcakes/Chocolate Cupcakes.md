@@ -1,4 +1,5 @@
 ---
+title: "Chocolate Cupcakes"
 category: "cupcakes"
 ---
 

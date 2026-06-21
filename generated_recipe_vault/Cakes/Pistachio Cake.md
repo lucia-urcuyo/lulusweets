@@ -1,4 +1,5 @@
 ---
+title: "Pistachio Cake"
 category: "cakes"
 ---
 

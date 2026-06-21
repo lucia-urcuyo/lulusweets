@@ -1,4 +1,5 @@
 ---
+title: "Pate a Choux"
 category: "eclairs"
 ---
 

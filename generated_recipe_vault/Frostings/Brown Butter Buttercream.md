@@ -1,4 +1,5 @@
 ---
+title: "Brown Butter Buttercream"
 category: "frostings"
 ---
 

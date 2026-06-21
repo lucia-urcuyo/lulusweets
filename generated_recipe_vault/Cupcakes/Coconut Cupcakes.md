@@ -1,4 +1,5 @@
 ---
+title: "Coconut Cupcakes"
 category: "cupcakes"
 ---
 

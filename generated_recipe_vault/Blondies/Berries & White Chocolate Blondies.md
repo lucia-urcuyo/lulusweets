@@ -1,4 +1,5 @@
 ---
+title: "Berries category: " White Chocolate Blondies"
 category: "blondies"
 ---
 

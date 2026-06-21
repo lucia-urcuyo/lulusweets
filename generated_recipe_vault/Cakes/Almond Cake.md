@@ -1,4 +1,5 @@
 ---
+title: "Almond Cake"
 category: "cakes"
 ---
 

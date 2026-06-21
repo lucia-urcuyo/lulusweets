@@ -1,4 +1,5 @@
 ---
+title: "Chocolate Baileys Espresso Rum Cupcakes"
 category: "cupcakes"
 ---
 

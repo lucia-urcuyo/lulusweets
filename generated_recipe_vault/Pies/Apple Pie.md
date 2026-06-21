@@ -1,4 +1,5 @@
 ---
+title: "Apple Pie"
 category: "pies"
 ---
 

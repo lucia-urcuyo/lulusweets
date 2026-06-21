@@ -1,4 +1,5 @@
 ---
+title: "Champagne Cake"
 category: "cakes"
 ---
 

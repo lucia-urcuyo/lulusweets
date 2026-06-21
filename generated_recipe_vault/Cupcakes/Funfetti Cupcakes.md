@@ -1,4 +1,5 @@
 ---
+title: "Funfetti Cupcakes"
 category: "cupcakes"
 ---
 

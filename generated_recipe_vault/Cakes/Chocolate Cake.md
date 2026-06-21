@@ -1,4 +1,5 @@
 ---
+title: "Chocolate Cake"
 category: "cakes"
 ---
 

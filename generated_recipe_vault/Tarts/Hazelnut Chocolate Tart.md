@@ -1,4 +1,5 @@
 ---
+title: "Hazelnut Chocolate Tart"
 category: "tarts"
 ---
 

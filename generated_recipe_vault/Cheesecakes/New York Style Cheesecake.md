@@ -1,4 +1,5 @@
 ---
+title: "New York Style Cheesecake"
 category: "cheesecakes"
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: "Chocolate Chip Cookies"
 category: "cookies"
 ---
 

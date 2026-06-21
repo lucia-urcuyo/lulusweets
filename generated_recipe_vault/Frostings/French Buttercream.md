@@ -1,4 +1,5 @@
 ---
+title: "French Buttercream"
 category: "frostings"
 ---
 
