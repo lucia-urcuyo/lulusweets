@@ -54,6 +54,9 @@ Current phase gate: Lucia approves the visual brief, core screens, and search be
 
 ## Recent Meaningful Changes
 
+- 2026-06-27: Updated the project-local Codex and Claude `recipe-format-normalizer` skills so future
+  pasted, dictated, OCR, or image recipes are normalized gram-first. Ingredient amounts should convert
+  to grams by default, while count-based whole ingredients such as eggs remain counts when appropriate.
 - 2026-06-27: Added and verified GitHub Pages deployment. Pushes to `main` run `npm run check`, upload
   `dist/`, and publish through GitHub Pages at `https://lucia-urcuyo.github.io/lulusweets/`. Hosted
   smoke passed against the live URL with 99 recipes, 15 categories, 9 cream-cheese search results,

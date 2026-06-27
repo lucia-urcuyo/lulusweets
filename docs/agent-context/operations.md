@@ -115,6 +115,17 @@ Hosted smoke check:
 APP_URL=https://lucia-urcuyo.github.io/lulusweets/ npm run smoke
 ```
 
+## Recipe Normalizer Skills
+
+Project-local recipe normalization skills live at:
+
+- `.codex/skills/recipe-format-normalizer/SKILL.md`
+- `.claude/skills/recipe-format-normalizer/SKILL.md`
+
+Keep them identical. They should rewrite pasted, dictated, OCR, website, screenshot, photo, or image
+recipes into the simple Lulusweets Markdown format and convert ingredient amounts to grams by default.
+Keep count-based whole ingredients, such as eggs, as counts when appropriate.
+
 ## Ponytail / Minimal Implementation Rule
 
 Prefer the smallest correct change.
