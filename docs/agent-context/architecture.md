@@ -70,7 +70,8 @@ The browsing layer is a static PWA:
 - GitHub repo:
   `https://github.com/lucia-urcuyo/lulusweets`
 - GitHub Pages:
-  publishes the generated `dist/` artifact from `.github/workflows/pages.yml`
+  `https://lucia-urcuyo.github.io/lulusweets/`, published from the generated `dist/` artifact by
+  `.github/workflows/pages.yml`
 
 ## Verified Commands
 
@@ -85,8 +86,9 @@ wikilinks.
 
 Latest local validation:
 
-- 2026-06-27: `npm run check` passed after adding the GitHub Pages workflow. The workflow uses the same
-  check before uploading `dist/` to Pages.
+- 2026-06-27: GitHub Pages deployment passed after enabling Pages with GitHub Actions as the build
+  source. Hosted smoke passed against `https://lucia-urcuyo.github.io/lulusweets/`; live
+  `data/recipes.json` reports 99 recipes, 15 categories, version `535a4b37f673`.
 - 2026-06-27: `npm run check` and `npm run smoke` passed after adding `Ginger Molasses Chewy Cookies`
   under Cookies and updating the vault home/index plus recipe-count expectations. Build output: 99
   recipes, 15 categories, 94 relationships, 0 unresolved source links.

@@ -16,7 +16,8 @@ Recipe/content changes become: edit Markdown, commit, push, GitHub builds, GitHu
 The first GitHub-side run and phone install/update behavior still need verification.
 
 Status:
-Workflow added. Deployment run pending push/verification.
+Applied. GitHub Pages is enabled for the repo, the workflow deploys successfully, and hosted smoke
+passes at `https://lucia-urcuyo.github.io/lulusweets/`.
 
 ## 2026-06-27 - Add Ginger Molasses Chewy Cookies
 

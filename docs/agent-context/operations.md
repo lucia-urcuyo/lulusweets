@@ -92,6 +92,12 @@ Also add a parseable root log entry:
 
 Hosting path: GitHub Pages from `.github/workflows/pages.yml`.
 
+Live URL:
+
+```txt
+https://lucia-urcuyo.github.io/lulusweets/
+```
+
 Deployment flow:
 
 ```sh
@@ -102,6 +108,12 @@ GitHub Actions then runs `npm run check`, uploads `dist/`, and publishes it with
 Do not edit `dist/` by hand or commit generated `dist/`.
 
 After deploy, verify the GitHub Actions run and open the Pages URL on desktop and phone.
+
+Hosted smoke check:
+
+```sh
+APP_URL=https://lucia-urcuyo.github.io/lulusweets/ npm run smoke
+```
 
 ## Ponytail / Minimal Implementation Rule
 

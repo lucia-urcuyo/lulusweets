@@ -31,7 +31,7 @@ Current phase gate: Lucia approves the visual brief, core screens, and search be
 ## Known Blockers
 
 - Visual/search design approval is still pending.
-- GitHub Pages deployment workflow has been added but needs GitHub-side run/URL verification.
+- GitHub Pages deployment is live and verified at `https://lucia-urcuyo.github.io/lulusweets/`.
 - Image assets are mapped but still need to be copied into the vault and referenced in recipe pages.
 - A file watcher for automatic rebuilds from Obsidian vault edits is still desired.
 
@@ -54,9 +54,10 @@ Current phase gate: Lucia approves the visual brief, core screens, and search be
 
 ## Recent Meaningful Changes
 
-- 2026-06-27: Added a GitHub Pages deployment workflow under `.github/workflows/pages.yml`. Pushes to
-  `main` run `npm run check`, upload `dist/`, and publish through GitHub Pages. GitHub-side
-  deployment verification is the next step.
+- 2026-06-27: Added and verified GitHub Pages deployment. Pushes to `main` run `npm run check`, upload
+  `dist/`, and publish through GitHub Pages at `https://lucia-urcuyo.github.io/lulusweets/`. Hosted
+  smoke passed against the live URL with 99 recipes, 15 categories, 9 cream-cheese search results,
+  Macarons routing, and offline reload visibility.
 - 2026-06-27: Added `Ginger Molasses Chewy Cookies` under Cookies with concise Lulusweets-style
   instructions, updated the Cookies index and vault home, and updated validation/smoke expectations.
   `npm run check` passed with 99 recipes, 15 categories, 94 relationships, and 0 unresolved links;

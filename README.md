@@ -46,6 +46,12 @@ npm run smoke
 
 ## Deployment
 
+Live URL:
+
+```txt
+https://lucia-urcuyo.github.io/lulusweets/
+```
+
 Pushes to `main` run the GitHub Pages workflow in `.github/workflows/pages.yml`.
 The workflow builds the app, uploads `dist/`, and publishes the PWA with GitHub Pages.
 
