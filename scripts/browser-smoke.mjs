@@ -159,10 +159,10 @@ try {
 
   const failures = [];
   if (home.title !== "Lulusweets — My Recipe Collection") failures.push("Unexpected home title.");
-  if (home.categories !== 14) failures.push(`Expected 14 category cards; found ${home.categories}.`);
-  if (home.recipes !== 98) failures.push(`Expected 98 home recipe cards; found ${home.recipes}.`);
+  if (home.categories !== 15) failures.push(`Expected 15 category cards; found ${home.categories}.`);
+  if (home.recipes !== 99) failures.push(`Expected 99 home recipe cards; found ${home.recipes}.`);
   if (!home.clearHidden) failures.push("Empty search clear button should be hidden.");
-  if (search.count !== 6) failures.push(`Expected 6 cream-cheese results; found ${search.count}.`);
+  if (search.count !== 9) failures.push(`Expected 9 cream-cheese results; found ${search.count}.`);
   if (!recipe.title) failures.push("Recipe navigation did not produce a title.");
   if (category.title !== "Macarons" || category.count !== 10) {
     failures.push(`Expected Macarons category with 10 recipes; found ${category.title}/${category.count}.`);

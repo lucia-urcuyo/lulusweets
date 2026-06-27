@@ -30,4 +30,4 @@ category: "cupcakes"
 
 ## Recommended Pairings
 
-- [[Mango Buttercream]]
+- [[Mango]]

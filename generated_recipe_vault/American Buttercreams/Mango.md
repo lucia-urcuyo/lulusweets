@@ -1,6 +1,6 @@
 ---
-title: "Mango Buttercream"
-category: "frostings"
+title: "Mango"
+category: "american buttercreams"
 ---
 
 ## Ingredients

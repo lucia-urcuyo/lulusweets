@@ -17,7 +17,7 @@ category: "cheesecakes"
 
 ## Instructions
 
-1. Prepare the springform pan with the graham cracker crust.
+1. Prepare the springform pan with the [[Graham Cracker Crust|graham cracker crust]].
 2. Place the cream cheese in the bowl of a stationary mixer fitted with a paddle and mix until smooth.
 3. Add the sugar and continue to mix on medium speed, scraping well.
 4. Add the heavy cream slowly and scrape often.

@@ -1,6 +1,6 @@
 ---
 title: "Ermine Buttercream"
-category: "frostings"
+category: "buttercream variations"
 ---
 
 ## Ingredients

@@ -28,4 +28,4 @@ category: "cakes"
 
 ## Recommended Pairings
 
-- [[Champagne Buttercream]]
+- [[Champagne]]

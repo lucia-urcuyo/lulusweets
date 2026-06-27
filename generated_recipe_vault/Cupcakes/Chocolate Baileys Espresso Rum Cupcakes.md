@@ -35,4 +35,4 @@ category: "cupcakes"
 ## Recommended Pairings
 
 - [[Chocolate Baileys Espresso Rum Ganache]]
-- [[Baileys Espresso Rum Buttercream]]
+- [[Baileys Espresso Rum]]

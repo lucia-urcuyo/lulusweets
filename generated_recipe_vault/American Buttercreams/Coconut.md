@@ -1,6 +1,6 @@
 ---
-title: "Coconut Buttercream"
-category: "frostings"
+title: "Coconut"
+category: "american buttercreams"
 ---
 
 ## Ingredients

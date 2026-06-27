@@ -1,6 +1,6 @@
 ---
-title: "Dulce de Leche Buttercream"
-category: "frostings"
+title: "Dulce de Leche"
+category: "american buttercreams"
 ---
 
 ## Ingredients

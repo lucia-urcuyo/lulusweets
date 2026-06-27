@@ -11,21 +11,22 @@ const state = {
 };
 
 const categoryDetails = {
-  cakes: { label: "Cakes", monogram: "Ck", tone: "rose" },
-  cupcakes: { label: "Cupcakes", monogram: "Cp", tone: "peach" },
-  frostings: { label: "Frostings", monogram: "Fr", tone: "plum" },
-  sauces: { label: "Sauces", monogram: "Sa", tone: "amber" },
-  doughs: { label: "Doughs", monogram: "Do", tone: "wheat" },
-  cookies: { label: "Cookies", monogram: "Co", tone: "cocoa" },
-  "cookie-crusts": { label: "Cookie Crusts", monogram: "Cr", tone: "cocoa" },
-  cheesecakes: { label: "Cheesecakes", monogram: "Ch", tone: "vanilla" },
-  pies: { label: "Pies", monogram: "Pi", tone: "berry" },
-  tarts: { label: "Tarts", monogram: "Ta", tone: "fig" },
-  blondies: { label: "Blondies", monogram: "Bl", tone: "honey" },
-  macarons: { label: "Macarons", monogram: "Ma", tone: "lilac" },
-  eclairs: { label: "Éclairs", monogram: "Éc", tone: "coffee" },
-  "healthy-recipes": { label: "Healthy Recipes", monogram: "Hr", tone: "sage" },
-  miscellaneous: { label: "Miscellaneous", monogram: "Mi", tone: "slate" }
+  cakes: { label: "Cakes", tone: "rose" },
+  cupcakes: { label: "Cupcakes", tone: "peach" },
+  "american-buttercreams": { label: "American Buttercreams", tone: "plum" },
+  "buttercream-variations": { label: "Buttercream Variations", tone: "vanilla" },
+  sauces: { label: "Sauces", tone: "amber" },
+  doughs: { label: "Doughs", tone: "wheat" },
+  cookies: { label: "Cookies", tone: "cocoa" },
+  "cookie-crusts": { label: "Cookie Crusts", tone: "cocoa" },
+  cheesecakes: { label: "Cheesecakes", tone: "vanilla" },
+  pies: { label: "Pies", tone: "berry" },
+  tarts: { label: "Tarts", tone: "fig" },
+  blondies: { label: "Blondies", tone: "honey" },
+  macarons: { label: "Macarons", tone: "lilac" },
+  eclairs: { label: "Éclairs", tone: "coffee" },
+  "healthy-recipes": { label: "Healthy Recipes", tone: "sage" },
+  miscellaneous: { label: "Miscellaneous", tone: "slate" }
 };
 
 const escapeHtml = (value = "") =>
@@ -45,11 +46,6 @@ const normalize = (value = "") =>
 const categoryInfo = (slug, name = "") =>
   categoryDetails[slug] || {
     label: name,
-    monogram: name
-      .split(/\s+/)
-      .map((word) => word[0])
-      .join("")
-      .slice(0, 2),
     tone: "slate"
   };
 
@@ -119,40 +115,65 @@ function getResults() {
     .map(({ recipe }) => recipe);
 }
 
-function matchContext(recipe) {
+function matchDetails(recipe) {
   const terms = normalize(state.query)
     .split(/\s+/)
     .filter(Boolean);
   if (!terms.length) {
-    return recipe.ingredients.length
-      ? recipe.ingredients.slice(0, 3).join(" · ")
-      : recipe.related.length
-        ? `Uses ${recipe.related.slice(0, 2).map((item) => item.title).join(" · ")}`
-        : recipe.excerpt;
+    if (recipe.ingredients.length) {
+      return { label: "Key ingredients", text: recipe.ingredients.slice(0, 3).join(" · ") };
+    }
+    if (recipe.related.length) {
+      return { label: "Uses", text: recipe.related.slice(0, 2).map((item) => item.title).join(" · ") };
+    }
+    return { label: "Preview", text: recipe.excerpt };
   }
 
   const matchingIngredients = recipe.ingredients.filter((ingredient) =>
     terms.some((term) => normalize(ingredient).includes(term))
   );
-  if (matchingIngredients.length) return `Ingredients: ${matchingIngredients.slice(0, 3).join(" · ")}`;
+  if (matchingIngredients.length) {
+    return { label: "Matched ingredients", text: matchingIngredients.slice(0, 3).join(" · ") };
+  }
 
   const matchingLinks = [...recipe.related, ...recipe.usedBy].filter((item) =>
     terms.some((term) => normalize(item.title).includes(term))
   );
-  if (matchingLinks.length) return `Related: ${matchingLinks.slice(0, 3).map((item) => item.title).join(" · ")}`;
+  if (matchingLinks.length) {
+    return { label: "Matched related", text: matchingLinks.slice(0, 3).map((item) => item.title).join(" · ") };
+  }
 
-  return recipe.excerpt;
+  if (terms.some((term) => normalize(recipe.title).includes(term))) {
+    return { label: "Title match", text: recipe.excerpt };
+  }
+
+  return { label: "Preview", text: recipe.excerpt };
 }
 
 function recipeCard(recipe) {
   const detail = categoryInfo(recipe.categorySlug, recipe.category);
+  const context = matchDetails(recipe);
+  const metadata = recipe.ingredients.length
+    ? `${recipe.ingredients.length} ingredients`
+    : recipe.related.length
+      ? `${recipe.related.length} components`
+      : "Recipe";
+
   return `
     <a class="recipe-card" href="#/recipe/${encodeURIComponent(recipe.slug)}">
       <span class="recipe-card-accent tone-${detail.tone}" aria-hidden="true"></span>
       <div class="recipe-card-body">
-        <span class="recipe-category">${escapeHtml(recipe.category)}</span>
+        <span class="recipe-card-head">
+          <span class="recipe-card-kicker">
+            <span class="recipe-category">${escapeHtml(recipe.category)}</span>
+            <small>${metadata}</small>
+          </span>
+        </span>
         <h3>${escapeHtml(recipe.title)}</h3>
-        <p>${escapeHtml(matchContext(recipe))}</p>
+        <p class="recipe-card-context">
+          <span>${escapeHtml(context.label)}</span>
+          ${escapeHtml(context.text)}
+        </p>
       </div>
       <span class="recipe-card-arrow" aria-hidden="true">${icon("arrow")}</span>
     </a>
@@ -163,7 +184,6 @@ function categoryCard(category) {
   const detail = categoryInfo(category.slug, category.name);
   return `
     <button class="category-card tone-${detail.tone}" type="button" data-category="${category.slug}">
-      <span class="category-monogram" aria-hidden="true">${escapeHtml(detail.monogram)}</span>
       <span class="category-card-copy">
         <strong>${escapeHtml(detail.label)}</strong>
         <small>${category.count} ${category.count === 1 ? "recipe" : "recipes"}</small>
@@ -180,10 +200,15 @@ function updateResults() {
   const grid = document.querySelector("#recipe-grid");
   const empty = document.querySelector("#empty-state");
   const clearButton = document.querySelector("#clear-search");
+  const activeSearchBar = document.querySelector("#active-search-bar");
+  const activeSearchText = document.querySelector("#active-search-text");
 
   if (!grid) return;
   const hasFilter = Boolean(state.query.trim()) || state.category !== "all";
   const activeCategory = state.data.categories.find((category) => category.slug === state.category);
+  const activeTerms = [];
+  if (state.query.trim()) activeTerms.push(`“${state.query.trim()}”`);
+  if (activeCategory) activeTerms.push(activeCategory.name);
 
   heading.textContent = state.query.trim()
     ? `Results for “${state.query.trim()}”`
@@ -195,6 +220,12 @@ function updateResults() {
   grid.hidden = results.length === 0;
   empty.hidden = results.length > 0;
   clearButton.hidden = !state.query;
+  if (activeSearchBar && activeSearchText) {
+    activeSearchBar.hidden = !hasFilter;
+    activeSearchText.textContent = hasFilter
+      ? `Showing ${results.length} ${results.length === 1 ? "recipe" : "recipes"} for ${activeTerms.join(" in ")}`
+      : "";
+  }
 
   document.querySelectorAll("[data-filter-category]").forEach((button) => {
     const isActive = button.dataset.filterCategory === state.category;
@@ -203,6 +234,7 @@ function updateResults() {
   });
 
   document.querySelector("#browse-section")?.classList.toggle("is-searching", hasFilter);
+  document.querySelector("#category-section")?.classList.toggle("is-hidden-for-search", hasFilter);
 }
 
 function renderHome({ focusSearch = false } = {}) {
@@ -230,7 +262,6 @@ function renderHome({ focusSearch = false } = {}) {
             ${icon("close")}
           </button>
         </label>
-        <p>Try “chocolate”, “cream cheese”, “macaron”, or “pecan”.</p>
       </div>
     </section>
 
@@ -257,13 +288,24 @@ function renderHome({ focusSearch = false } = {}) {
       </div>
 
       <div class="filter-strip" aria-label="Recipe categories">
-        <button class="filter-chip is-active" type="button" data-filter-category="all" aria-pressed="true">All</button>
+        <button class="filter-chip is-active" type="button" data-filter-category="all" aria-pressed="true">
+          <span>All</span>
+          <span class="filter-chip-count">${state.data.recipeCount}</span>
+        </button>
         ${state.data.categories
           .map(
             (category) =>
-              `<button class="filter-chip" type="button" data-filter-category="${category.slug}" aria-pressed="false">${escapeHtml(category.name)}</button>`
+              `<button class="filter-chip" type="button" data-filter-category="${category.slug}" aria-pressed="false">
+                <span>${escapeHtml(category.name)}</span>
+                <span class="filter-chip-count">${category.count}</span>
+              </button>`
           )
           .join("")}
+      </div>
+
+      <div class="active-search-bar" id="active-search-bar" hidden>
+        <span id="active-search-text"></span>
+        <button class="active-search-clear" type="button" data-reset-search>Clear</button>
       </div>
 
       <div class="recipe-grid" id="recipe-grid"></div>
@@ -294,7 +336,9 @@ function renderHome({ focusSearch = false } = {}) {
       document.querySelector("#browse-section").scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
-  document.querySelector("[data-reset-search]").addEventListener("click", () => resetSearch(true));
+  document.querySelectorAll("[data-reset-search]").forEach((button) => {
+    button.addEventListener("click", () => resetSearch(true));
+  });
 
   updateResults();
   if (focusSearch) {
@@ -317,7 +361,6 @@ function miniRecipeCard(item, label) {
   const detail = categoryInfo(recipe.categorySlug, recipe.category);
   return `
     <a class="mini-recipe-card" href="#/recipe/${encodeURIComponent(recipe.slug)}">
-      <span class="mini-mark tone-${detail.tone}" aria-hidden="true">${escapeHtml(detail.monogram)}</span>
       <span>
         <small>${escapeHtml(label || recipe.category)}</small>
         <strong>${escapeHtml(recipe.title)}</strong>
@@ -325,6 +368,57 @@ function miniRecipeCard(item, label) {
       ${icon("arrow")}
     </a>
   `;
+}
+
+const recipeJumpSections = [
+  { key: "ingredients", label: "Ingredients", heading: "Ingredients" },
+  { key: "instructions", label: "Instructions", heading: "Instructions" },
+  { key: "notes", label: "Notes", heading: "Notes" },
+  { key: "recommended-pairings", label: "Pairings", heading: "Recommended Pairings" }
+];
+
+const sectionSlug = (value = "") =>
+  normalize(value)
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+function hasRecipeHeading(recipe, heading) {
+  return recipe.html.includes(`<h2>${heading}</h2>`);
+}
+
+function recipeJumpNav(recipe) {
+  const sections = recipeJumpSections.filter((section) => hasRecipeHeading(recipe, section.heading));
+  if (recipe.related.length || recipe.usedBy.length) {
+    sections.push({ key: "related", label: "Related" });
+  }
+  if (sections.length < 2) return "";
+
+  return `
+    <nav class="recipe-jump-nav" aria-label="Recipe sections">
+      ${sections
+        .map(
+          (section) =>
+            `<button class="recipe-jump-chip" type="button" data-recipe-jump="${section.key}">${section.label}</button>`
+        )
+        .join("")}
+    </nav>
+  `;
+}
+
+function wireRecipeJumpNav() {
+  document.querySelectorAll(".recipe-content h2").forEach((heading) => {
+    heading.id = `recipe-section-${sectionSlug(heading.textContent)}`;
+  });
+
+  const relatedPanel = document.querySelector(".recipe-aside");
+  if (relatedPanel) relatedPanel.id = "recipe-section-related";
+
+  document.querySelectorAll("[data-recipe-jump]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const target = document.querySelector(`#recipe-section-${button.dataset.recipeJump}`);
+      target?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
 }
 
 function renderRecipe(slug) {
@@ -346,7 +440,6 @@ function renderRecipe(slug) {
       </div>
 
       <header class="recipe-hero">
-        <div class="recipe-hero-mark tone-${detail.tone}" aria-hidden="true">${escapeHtml(detail.monogram)}</div>
         <div>
           <p class="eyebrow">${escapeHtml(recipe.category)}</p>
           <h1>${escapeHtml(recipe.title)}</h1>
@@ -362,6 +455,7 @@ function renderRecipe(slug) {
                 : ""
             }
           </div>
+          ${recipeJumpNav(recipe)}
         </div>
       </header>
 
@@ -398,6 +492,7 @@ function renderRecipe(slug) {
       </div>
     </article>
   `;
+  wireRecipeJumpNav();
   main.focus({ preventScroll: true });
   window.scrollTo({ top: 0, behavior: "instant" });
 }
@@ -420,7 +515,6 @@ function renderCategory(slug) {
         <a class="back-link" href="#/">${icon("back")} Back to cookbook</a>
       </div>
       <header class="category-page-header">
-        <div class="recipe-hero-mark tone-${detail.tone}" aria-hidden="true">${escapeHtml(detail.monogram)}</div>
         <div>
           <p class="eyebrow">Recipe category</p>
           <h1>${escapeHtml(category.name)}</h1>

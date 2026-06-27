@@ -33,4 +33,4 @@ category: "cupcakes"
 
 ## Recommended Pairings
 
-- [[Condensed Milk Buttercream]]
+- [[Condensed Milk]]

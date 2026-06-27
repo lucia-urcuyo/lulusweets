@@ -1,6 +1,6 @@
 ---
-title: "Chocolate Buttercream"
-category: "frostings"
+title: "Chocolate"
+category: "american buttercreams"
 ---
 
 ## Ingredients

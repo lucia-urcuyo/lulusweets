@@ -1,6 +1,6 @@
 ---
-title: "Brown Butter Buttercream"
-category: "frostings"
+title: "Brown Butter"
+category: "american buttercreams"
 ---
 
 ## Ingredients

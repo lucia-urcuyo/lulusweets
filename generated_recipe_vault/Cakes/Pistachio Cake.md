@@ -35,4 +35,4 @@ category: "cakes"
 
 ## Recommended Pairings
 
-- [[Cream Cheese Buttercream]]
+- [[Cream Cheese]]

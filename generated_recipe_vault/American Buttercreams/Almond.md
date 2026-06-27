@@ -1,6 +1,6 @@
 ---
-title: "Almond Buttercream"
-category: "frostings"
+title: "Almond"
+category: "american buttercreams"
 ---
 
 ## Ingredients

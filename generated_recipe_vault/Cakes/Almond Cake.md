@@ -34,4 +34,4 @@ category: "cakes"
 
 ## Recommended Pairings
 
-- [[Almond Buttercream]]
+- [[Almond]]

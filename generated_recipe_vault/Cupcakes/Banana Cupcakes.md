@@ -30,5 +30,5 @@ category: "cupcakes"
 
 ## Recommended Pairings
 
-- [[Peanut Butter Buttercream]]
-- [[Dulce de Leche Buttercream]]
+- [[Peanut Butter]]
+- [[Dulce de Leche]]

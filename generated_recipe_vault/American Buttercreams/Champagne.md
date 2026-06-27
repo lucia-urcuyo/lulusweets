@@ -1,6 +1,6 @@
 ---
-title: "Champagne Buttercream"
-category: "frostings"
+title: "Champagne"
+category: "american buttercreams"
 ---
 
 ## Ingredients

@@ -39,4 +39,4 @@ category: "cupcakes"
 
 ## Recommended Pairings
 
-- [[Vanilla Buttercream]]
+- [[Vanilla]]

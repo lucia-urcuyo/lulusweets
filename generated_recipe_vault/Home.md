@@ -1,6 +1,6 @@
 # Lulusweets
 
-*98 recipes across 14 categories*
+*99 recipes across 15 categories*
 
 ## Categories
 
@@ -34,27 +34,30 @@
 - [[Vanilla Cupcakes]]
 - [[Yellow Cupcakes]]
 
-### [[Frostings Index|Frostings]] (19)
+### [[American Buttercreams Index|American Buttercreams]] (16)
 
-- [[Almond Buttercream]]
-- [[Baileys Espresso Rum Buttercream]]
-- [[Brown Butter Buttercream]]
-- [[Champagne Buttercream]]
-- [[Chocolate Buttercream]]
-- [[Chocolate Cream Cheese Buttercream]]
-- [[Coconut Buttercream]]
-- [[Condensed Milk Buttercream]]
-- [[Cream Cheese Buttercream]]
-- [[Dulce de Leche Buttercream]]
+- [[Almond]]
+- [[Baileys Espresso Rum]]
+- [[Brown Butter]]
+- [[Champagne]]
+- [[Chocolate]]
+- [[Chocolate Cream Cheese]]
+- [[Coconut]]
+- [[Condensed Milk]]
+- [[Cream Cheese]]
+- [[Dulce de Leche]]
+- [[Key Lime Pie]]
+- [[Mango]]
+- [[Orange]]
+- [[Peanut Butter]]
+- [[Salted Caramel]]
+- [[Vanilla]]
+
+### [[Buttercream Variations Index|Buttercream Variations]] (3)
+
 - [[Ermine Buttercream]]
 - [[French Buttercream]]
-- [[Key Lime Pie Buttercream]]
-- [[Mango Buttercream]]
-- [[Orange Buttercream]]
-- [[Peanut Butter Buttercream]]
-- [[Salted Caramel Buttercream]]
 - [[Swiss Meringue Buttercream]]
-- [[Vanilla Buttercream]]
 
 ### [[Pies Index|Pies]] (6)
 
@@ -102,9 +105,10 @@
 
 - [[Doughnuts]]
 
-### [[Cookies Index|Cookies]] (2)
+### [[Cookies Index|Cookies]] (3)
 
 - [[Chocolate Chip Cookies]]
+- [[Ginger Molasses Chewy Cookies]]
 - [[Oat and Pecan Brittle Cookies]]
 
 ### [[Cookie Crusts Index|Cookie Crusts]] (1)
@@ -143,4 +147,3 @@
 
 - [[Flan]]
 - [[Tres Leche]]
-

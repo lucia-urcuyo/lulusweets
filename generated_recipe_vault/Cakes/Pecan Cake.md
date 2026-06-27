@@ -47,4 +47,4 @@ category: "cakes"
 
 ## Recommended Pairings
 
-- [[Brown Butter Buttercream]]
+- [[Brown Butter]]

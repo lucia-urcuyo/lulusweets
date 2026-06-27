@@ -34,5 +34,5 @@ category: "cakes"
 
 ## Recommended Pairings
 
-- [[Vanilla Buttercream]]
-- [[Salted Caramel Buttercream]]
+- [[Vanilla]]
+- [[Salted Caramel]]

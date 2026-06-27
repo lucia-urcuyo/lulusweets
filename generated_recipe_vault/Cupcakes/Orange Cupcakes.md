@@ -33,5 +33,5 @@ category: "cupcakes"
 ## Recommended Pairings
 
 - [[Chocolate Fudge Sauce]]
-- [[Orange Buttercream]]
-- [[Chocolate Buttercream]]
+- [[Orange]]
+- [[Chocolate]]

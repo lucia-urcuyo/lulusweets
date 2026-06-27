@@ -1,6 +1,6 @@
 ---
-title: "Orange Buttercream"
-category: "frostings"
+title: "Orange"
+category: "american buttercreams"
 ---
 
 ## Ingredients

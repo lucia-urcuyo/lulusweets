@@ -1,6 +1,6 @@
 ---
 title: "Swiss Meringue Buttercream"
-category: "frostings"
+category: "buttercream variations"
 ---
 
 ## Ingredients

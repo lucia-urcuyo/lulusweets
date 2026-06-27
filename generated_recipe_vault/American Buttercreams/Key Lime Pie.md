@@ -1,6 +1,6 @@
 ---
-title: "Key Lime Pie Buttercream"
-category: "frostings"
+title: "Key Lime Pie"
+category: "american buttercreams"
 ---
 
 ## Ingredients

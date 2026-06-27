@@ -34,4 +34,4 @@ category: "cakes"
 
 ## Recommended Pairings
 
-- [[Vanilla Buttercream]]
+- [[Vanilla]]

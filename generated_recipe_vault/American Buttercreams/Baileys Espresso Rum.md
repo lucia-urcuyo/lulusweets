@@ -1,6 +1,6 @@
 ---
-title: "Baileys Espresso Rum Buttercream"
-category: "frostings"
+title: "Baileys Espresso Rum"
+category: "american buttercreams"
 ---
 
 ## Ingredients

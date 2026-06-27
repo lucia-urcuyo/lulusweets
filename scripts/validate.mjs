@@ -21,8 +21,8 @@ const slugs = new Set();
 const titles = new Set();
 const problems = [];
 
-if (payload.recipeCount !== 98) {
-  problems.push(`Expected 98 recipes, found ${payload.recipeCount}.`);
+if (payload.recipeCount !== 99) {
+  problems.push(`Expected 99 recipes, found ${payload.recipeCount}.`);
 }
 if (!payload.categories.length) problems.push("No categories generated.");
 

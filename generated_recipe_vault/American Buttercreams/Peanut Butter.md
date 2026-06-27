@@ -1,6 +1,6 @@
 ---
-title: "Peanut Butter Buttercream"
-category: "frostings"
+title: "Peanut Butter"
+category: "american buttercreams"
 ---
 
 ## Ingredients

@@ -29,5 +29,5 @@ category: "cupcakes"
 
 ## Recommended Pairings
 
-- [[Cream Cheese Buttercream]]
-- [[Condensed Milk Buttercream]]
+- [[Cream Cheese]]
+- [[Condensed Milk]]

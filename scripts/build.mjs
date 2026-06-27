@@ -11,7 +11,8 @@ const distRoot = path.join(root, "dist");
 const categoryOrder = [
   "Cakes",
   "Cupcakes",
-  "Frostings",
+  "American Buttercreams",
+  "Buttercream Variations",
   "Sauces",
   "Doughs",
   "Cookies",

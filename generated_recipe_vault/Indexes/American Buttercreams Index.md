@@ -1,0 +1,18 @@
+# American Buttercreams
+
+- [[Almond]]
+- [[Baileys Espresso Rum]]
+- [[Brown Butter]]
+- [[Champagne]]
+- [[Chocolate]]
+- [[Chocolate Cream Cheese]]
+- [[Coconut]]
+- [[Condensed Milk]]
+- [[Cream Cheese]]
+- [[Dulce de Leche]]
+- [[Key Lime Pie]]
+- [[Mango]]
+- [[Orange]]
+- [[Peanut Butter]]
+- [[Salted Caramel]]
+- [[Vanilla]]

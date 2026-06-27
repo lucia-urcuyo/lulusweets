@@ -1,11 +1,11 @@
-# Lulusweets — concrete implementation plan
+# Lulusweets - Project Plan
 
-Brain `Projects/lulusweets/specs.md` is canonical. This file is a local convenience mirror and must be
-kept aligned with Brain.
+Brain `Projects/lulusweets/specs.md` is the long-term canonical plan record. This file is a local
+coding-agent mirror and should stay aligned with Brain when phase status changes.
 
 ## Objective
 
-Build a long-term recipe system in the correct order:
+Build a long-term recipe system in this order:
 
 1. A complete, validated Obsidian/Markdown recipe vault.
 2. An approved Lulusweets visual and interaction design.
@@ -13,267 +13,131 @@ Build a long-term recipe system in the correct order:
 
 The Markdown vault is the source of truth. The PWA is a generated browsing interface.
 
-## Current status
+## Current Status
 
-- `Recipe.docx.md` is the available Markdown conversion of the cookbook.
-- `generated_recipe_vault/` is a useful prototype and the starting point for the audit. It is **not
-  yet certified as complete or canonical**.
-- The converted Markdown exposes 98 unique recipe/component titles after correcting for malformed
-  headings. The prototype also has 98 recipe files.
-- Equal counts do not prove content parity. Images are absent, some source boundaries are malformed,
-  and every recipe still needs source-to-vault verification.
-- The existing `site/`, `scripts/`, and `dist/` implementation is an **exploratory PWA prototype**.
-  Website feature/design work is paused until the Obsidian vault passes its completion gate.
-- The correct product/brand name is **Lulusweets**.
-- `logo.jpg` is the visual reference for future design work.
+As of 2026-06-27:
 
-## Operating rule
+- Phase 1 is complete: source inventory, gap audit, and image mapping are accounted for.
+- Phase 2 is complete: `generated_recipe_vault/` is the canonical local vault.
+- Phase 3 is in progress: the initial logo-derived PWA redesign is built. Phase 3 refinement wave 1
+  fixed mobile horizontal overflow/clipping, and wave 2 strengthened header/logo treatment,
+  logo-derived brand accents, recipe cards, filters, and recipe-page reading polish. A 2026-06-27
+  feedback pass removed confusing category/recipe initial boxes, enlarged/simplified the real logo, and
+  added logo-based PNG install icons. Follow-up logo asset fixes added and re-centered
+  `site/logo-mark.png`, a tighter PNG crop used by the header and regenerated install icons. Wave 3
+  added active-search summaries, clearer match labels, category filter counts, search-state result
+  positioning, and recipe-page jump chips. A follow-up category/search cleanup split the former
+  `Frostings` category into `American Buttercreams` and `Buttercream Variations`, shortened American
+  buttercream recipe titles, removed the search hint line, and fixed the duplicate search clear button.
+- Final PWA work, hosting, and release remain gated behind Phase 3 approval.
 
-Work on one phase at a time. Do not begin the next phase until its completion gate is satisfied and
-Lucia has reviewed the phase deliverables.
+## Operating Rule
 
----
+Work on one phase at a time. Do not begin the next phase until the current completion gate is satisfied
+and Lucia has reviewed the phase deliverables.
 
-## Phase 0 — Reset and baseline
+For coding-agent work, start with `AGENTS.md` and `docs/agent-context/current-state.md`.
 
-### Work
+## Phase 0 - Reset And Baseline
 
-- Correct the product name to `Lulusweets` in project files.
-- Preserve the current PWA as an exploratory prototype, not an approved design.
-- Document `logo.jpg` as the brand reference.
-- Preserve the source cookbook and current generated vault before bulk migration edits.
-- Record this phased plan in the Brain.
-- Add repository `AGENTS.md` enforcing Brain as source of truth and mandatory work-session updates.
+Status: complete.
 
-### Deliverables
+Deliverables completed:
 
-- This plan.
-- `AGENTS.md`.
-- `docs/BRAND_DIRECTION.md`.
-- `audit/README.md`.
-- Brain project state corrected.
+- Product name corrected to **Lulusweets**.
+- Existing PWA marked exploratory until design approval.
+- `logo.jpg` recorded as the brand reference.
+- Brain and repo governance established.
 
-### Completion gate
+Gate: passed 2026-06-20.
 
-- [x] Naming is corrected.
-- [x] Website work is explicitly marked paused/exploratory.
-- [x] The plan exists locally and in the Brain.
-- [x] Repository agent instructions enforce the Brain read/update protocol.
+## Phase 1 - Authoritative Cookbook Inventory And Gap Audit
 
----
+Status: complete.
 
-## Phase 1 — Authoritative cookbook inventory and gap audit
-
-### Purpose
-
-Determine what actually exists in the original cookbook and whether every piece is represented
-correctly in `generated_recipe_vault`.
-
-### Work
-
-1. Obtain the authoritative original Google Doc export as `.docx`, including embedded images.
-2. Create a source manifest containing, for every recipe/component:
-   - Source title
-   - Source category
-   - Source location/range
-   - Ingredient tables/components
-   - Instruction sections
-   - Notes/recommendations
-   - Links/pairings
-   - Images/assets
-3. Compare each manifest entry with its generated Markdown file.
-4. Classify every entry:
-   - `complete`
-   - `partial`
-   - `missing`
-   - `misassigned`
-   - `needs-human-review`
-5. Record source content that is not a standalone recipe but must still be preserved.
-6. Resolve naming/category discrepancies:
-   - Buttercreams vs Frostings
-   - Dough vs Doughs
-   - Cheesecake vs Cheesecakes
-   - Sauces heading missing/malformed in the conversion
-   - Healthy Recipes currently empty
-
-### Deliverables
+Deliverables completed:
 
 - `audit/source-manifest.csv`
 - `audit/content-gap-report.md`
-- Asset/image inventory
-- Explicit list of ambiguous source sections requiring Lucia's decision
+- `audit/image-recipe-mapping.csv`
+- PDF/image extraction evidence under `audit/`
+- Lucia decisions for ambiguous content.
 
-### Completion gate
+Gate: passed 2026-06-21.
 
-- [ ] Every source recipe/component has exactly one manifest entry.
-- [ ] Every source section and image is accounted for.
-- [ ] Every generated note has a parity status.
-- [ ] Missing, partial, and misassigned content is known—not inferred from file counts.
-- [ ] Lucia approves the inventory and ambiguity decisions.
+## Phase 2 - Canonical Obsidian Vault
 
-**No canonical-vault migration work proceeds until this gate passes.**
+Status: complete.
 
----
+Deliverables completed:
 
-## Phase 2 — Build and validate the canonical Obsidian vault
+- Canonical vault with 99 recipes and 15 categories.
+- `title` and `category` frontmatter.
+- No tags.
+- Root home page, category indexes, recipe template.
+- 94 validated relationships and 0 broken links.
 
-### Purpose
+Gate: passed 2026-06-21.
 
-Repair/promote the prototype into the permanent Markdown source of truth.
+## Phase 3 - Lulusweets Visual/Search Design
 
-### Work
+Status: in progress.
 
-1. Freeze the recipe schema:
-   - Stable `id`
-   - `title`
-   - `category`
-   - `tags`
-   - aliases
-   - pairings/components
-   - source reference
-   - image references
-   - migration/validation status
-2. Freeze folder, filename, link, alias, and asset conventions.
-3. Rebuild or repair every recipe note from the Phase 1 manifest.
-4. Preserve:
-   - All ingredient tables and component headings
-   - Numbered instructions
-   - Notes and recommendations
-   - Images
-   - Cross-recipe relationships
-5. Generate category indexes and a root vault home/README.
-6. Generate forward recipe links and reliable reverse “used in” relationships.
-7. Validate:
-   - Missing recipes/content
-   - Broken/ambiguous links
-   - Duplicate names/IDs
-   - Missing assets
-   - Metadata/schema consistency
-   - Obsidian desktop rendering
-   - Obsidian mobile rendering
+Current work:
 
-### Deliverables
+- Review the logo-derived pastel visual design.
+- Wave 1 complete: CSS-only mobile overflow fix for the homepage, search, category grid, filter row,
+  recipe cards, recipe detail pages, ingredient tables, and instruction sections.
+- Wave 2 complete: focused visual/search polish for the logo/header, brand accents, category and recipe
+  cards, filter states, and recipe detail readability.
+- Feedback pass complete: removed `Ck`/`Cp`-style monogram boxes, kept category cards understandable
+  with real labels/counts and color strips, enlarged the header logo without the extra black CSS ring,
+  and added PNG install icons generated from `logo.jpg`.
+- Logo asset fix complete: replaced header usage of the full tall `logo.jpg` with `site/logo-mark.png`
+  so the logo fills the visible mark better, is centered, and is less soft when displayed small.
+- Wave 3 complete: active search now collapses the category grid and brings results directly under the
+  hero, filter chips show category counts, recipe cards label match context, and recipe pages include
+  Ingredients/Instructions/Pairings/Related jump chips.
+- Category/search cleanup complete: `Frostings` is now `American Buttercreams` plus `Buttercream
+  Variations`; Swiss Meringue Buttercream, Ermine Buttercream, and French Buttercream are in the
+  variation category; American buttercream recipe titles omit `Buttercream`; the search hint line is
+  removed; and the browser-native search clear button is hidden.
+- Recipe addition complete: `Ginger Molasses Chewy Cookies` added under Cookies with concise
+  Lulusweets-style instructions; validation now expects 99 recipes.
+- Agree typography, category colors, layout, image treatment, and search behavior.
+- Review desktop and mobile screens with Lucia.
+- Add a file watcher for automatic rebuilds when the vault changes.
 
-- Canonical recipe vault
-- Recipe template
-- Category indexes
-- Vault README/home
-- Machine-readable validation report
-- Human review checklist
+Gate:
 
-### Completion gate
+- Lucia approves the visual brief, core screens, and search behavior.
 
-- [ ] 100% of manifest entries are `complete`.
-- [ ] Zero missing source content or images.
-- [ ] Zero broken or ambiguous recipe links.
-- [ ] Zero duplicate stable IDs/output paths.
-- [ ] Obsidian desktop and mobile review passes.
-- [ ] Lucia approves the vault as the permanent source of truth.
+## Phase 4 - Final Static PWA
 
-**No website design/implementation proceeds until this gate passes.**
+Status: not started.
 
----
+Work:
 
-## Phase 3 — Lulusweets website design
+- Generate the final interface exclusively from the canonical vault.
+- Add approved icons/branding, offline behavior, and cache updates.
+- Add content-parity, search, accessibility, link, and browser tests.
+- Validate installability/offline behavior on iPhone and desktop.
 
-### Purpose
+Gate:
 
-Agree on the aesthetic and user experience before coding the final PWA.
+- Clean canonical build, content/search tests pass, and Lucia approves desktop/mobile experience.
 
-### Brand starting point
+## Phase 5 - Hosting And Release
 
-Use `logo.jpg` as the primary reference:
+Status: not started.
 
-- Correct name: **Lulusweets**
-- Playful illustrated bakery identity
-- Pastel blue background
-- Soft pink frosting
-- Warm yellow bird
-- Cherry-red accent
-- Hand-drawn black outlines
-- Friendly, whimsical, personal—not a generic documentation site or luxury editorial brand
+Work:
 
-### Work
+- Choose hosting/domain strategy.
+- Deploy static PWA.
+- Document edit/build/deploy/backup/restore.
+- Verify clean rebuild and recovery.
 
-1. Create a compact visual brief:
-   - Color palette sampled from the logo
-   - Typography direction
-   - Illustration/icon treatment
-   - Spacing, cards, borders, and motion principles
-2. Define the core screens:
-   - Home/search
-   - Search results
-   - Category
-   - Recipe
-   - Related recipes/components
-   - Mobile cooking view
-3. Create wireframes, then a polished static mockup using representative recipes.
-4. Review search behavior:
-   - Name
-   - Category
-   - Ingredient
-   - Frosting/filling/pairing
-   - Keyword
-5. Review desktop and phone layouts with Lucia.
+Gate:
 
-### Deliverables
-
-- Approved visual brief
-- Approved desktop and mobile mockups
-- Approved search/filter behavior
-
-### Completion gate
-
-- [ ] Lucia approves the visual direction.
-- [ ] Lucia approves all core screens.
-- [ ] Search behavior is agreed before final implementation.
-
----
-
-## Phase 4 — Build the final static PWA
-
-### Purpose
-
-Generate the approved interface exclusively from the canonical Obsidian vault.
-
-### Work
-
-- Replace or refactor the exploratory PWA based on the approved design.
-- Generate all routes and search data from canonical Markdown.
-- Add installable PWA assets using the approved Lulusweets brand.
-- Support offline access and reliable cache updates.
-- Preserve links/backlinks and recipe relationships in the website.
-- Add automated build, link, search, accessibility, and browser tests.
-
-### Completion gate
-
-- [ ] Clean build from the canonical vault succeeds.
-- [ ] Website recipe count and content match the manifest.
-- [ ] Search acceptance tests pass.
-- [ ] Desktop and mobile visual review passes.
-- [ ] iPhone installation and offline use pass.
-- [ ] Lucia approves the final browsing experience.
-
----
-
-## Phase 5 — Hosting, backup, and release
-
-### Work
-
-- Select private/public hosting and domain strategy.
-- Deploy the static PWA.
-- Document editing, rebuilding, deploying, backing up, and restoring.
-- Verify clean rebuild from a fresh copy of the Markdown vault.
-- Retain the original cookbook as archival evidence until final sign-off.
-
-### Completion gate
-
-- [ ] Production site is reachable at the chosen URL.
-- [ ] Backup/restore rehearsal passes.
-- [ ] Maintenance instructions are complete.
-- [ ] Original Google Doc is no longer needed as the working copy.
-
-## Immediate next action
-
-Complete Phase 0, then begin Phase 1 by obtaining the original `.docx` export and generating the
-source-to-vault manifest. Do not continue PWA design or feature work.
+- Production access, backup/restore, and maintenance documentation pass.

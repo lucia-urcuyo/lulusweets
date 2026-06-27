@@ -1,6 +1,6 @@
 ---
-title: "Salted Caramel Buttercream"
-category: "frostings"
+title: "Salted Caramel"
+category: "american buttercreams"
 ---
 
 ## Ingredients

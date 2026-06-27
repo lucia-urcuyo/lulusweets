@@ -1,6 +1,6 @@
 ---
-title: "Condensed Milk Buttercream"
-category: "frostings"
+title: "Condensed Milk"
+category: "american buttercreams"
 ---
 
 ## Ingredients

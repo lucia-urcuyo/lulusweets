@@ -32,4 +32,4 @@ category: "cupcakes"
 ## Recommended Pairings
 
 - [[Coconut Cream]]
-- [[Coconut Buttercream]]
+- [[Coconut]]

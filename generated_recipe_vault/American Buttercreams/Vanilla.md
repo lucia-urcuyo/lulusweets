@@ -1,6 +1,6 @@
 ---
-title: "Vanilla Buttercream"
-category: "frostings"
+title: "Vanilla"
+category: "american buttercreams"
 ---
 
 ## Ingredients
