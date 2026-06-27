@@ -69,6 +69,8 @@ The browsing layer is a static PWA:
   `/Users/luciaurcuyo/Library/CloudStorage/GoogleDrive-lurcuyop@gmail.com/Other computers/My Mac/Brain`
 - GitHub repo:
   `https://github.com/lucia-urcuyo/lulusweets`
+- GitHub Pages:
+  publishes the generated `dist/` artifact from `.github/workflows/pages.yml`
 
 ## Verified Commands
 
@@ -83,6 +85,8 @@ wikilinks.
 
 Latest local validation:
 
+- 2026-06-27: `npm run check` passed after adding the GitHub Pages workflow. The workflow uses the same
+  check before uploading `dist/` to Pages.
 - 2026-06-27: `npm run check` and `npm run smoke` passed after adding `Ginger Molasses Chewy Cookies`
   under Cookies and updating the vault home/index plus recipe-count expectations. Build output: 99
   recipes, 15 categories, 94 relationships, 0 unresolved source links.

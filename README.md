@@ -44,6 +44,11 @@ With the preview server running:
 npm run smoke
 ```
 
+## Deployment
+
+Pushes to `main` run the GitHub Pages workflow in `.github/workflows/pages.yml`.
+The workflow builds the app, uploads `dist/`, and publishes the PWA with GitHub Pages.
+
 ## Editing Rule
 
 Recipe content lives in Markdown. Generated files under `dist/` should not be edited by hand.

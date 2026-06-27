@@ -90,7 +90,18 @@ Also add a parseable root log entry:
 
 ## Deployment Rules
 
-Hosting is not selected. Do not deploy without Lucia's explicit approval.
+Hosting path: GitHub Pages from `.github/workflows/pages.yml`.
+
+Deployment flow:
+
+```sh
+git push origin main
+```
+
+GitHub Actions then runs `npm run check`, uploads `dist/`, and publishes it with GitHub Pages.
+Do not edit `dist/` by hand or commit generated `dist/`.
+
+After deploy, verify the GitHub Actions run and open the Pages URL on desktop and phone.
 
 ## Ponytail / Minimal Implementation Rule
 

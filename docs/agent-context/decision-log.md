@@ -1,5 +1,23 @@
 # Lulusweets Agent Decision Log
 
+## 2026-06-27 - Use GitHub Pages for static PWA deployment
+
+Decision:
+Deploy the generated static PWA with GitHub Pages from a GitHub Actions workflow. The workflow builds
+the project with `npm run check`, uploads `dist/`, and publishes that artifact to Pages on pushes to
+`main`.
+
+Reason:
+The app is already a static PWA generated into `dist/`, so GitHub Pages is the smallest hosting setup:
+no server, database, or extra deployment service.
+
+Implications:
+Recipe/content changes become: edit Markdown, commit, push, GitHub builds, GitHub Pages publishes.
+The first GitHub-side run and phone install/update behavior still need verification.
+
+Status:
+Workflow added. Deployment run pending push/verification.
+
 ## 2026-06-27 - Add Ginger Molasses Chewy Cookies
 
 Decision:

@@ -29,6 +29,8 @@ As of 2026-06-27:
   positioning, and recipe-page jump chips. A follow-up category/search cleanup split the former
   `Frostings` category into `American Buttercreams` and `Buttercream Variations`, shortened American
   buttercream recipe titles, removed the search hint line, and fixed the duplicate search clear button.
+- GitHub Pages deployment workflow has been added for the static PWA; GitHub-side publish/URL
+  verification is still needed.
 - Final PWA work, hosting, and release remain gated behind Phase 3 approval.
 
 ## Operating Rule
@@ -129,12 +131,13 @@ Gate:
 
 ## Phase 5 - Hosting And Release
 
-Status: not started.
+Status: started for GitHub Pages setup; release verification still pending.
 
 Work:
 
-- Choose hosting/domain strategy.
-- Deploy static PWA.
+- [x] Choose hosting/domain strategy: GitHub Pages.
+- [x] Add GitHub Pages workflow to build and publish `dist/`.
+- [ ] Verify first GitHub Actions deployment and Pages URL.
 - Document edit/build/deploy/backup/restore.
 - Verify clean rebuild and recovery.
 
